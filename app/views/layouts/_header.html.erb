@@ -1,0 +1,48 @@
+<div id="header" class="clearfix">
+  <div id="site_logo">
+    <%= link_to image_tag('logo.png', :width => 254, :height => 83,
+      :border => 0, :alt => 'Qlogic, Inc.'), root_path %>
+    <div>Airline/Airport Software Solutions</div>
+  </div>
+  
+  <div class="float_right">
+    <div id="select_language" onclick="Effect.toggle('language_options',
+    'slide', { delay: 0.1, duration: 0.3 });">
+      <div class="selector"><%= t(:select_language) %></div>
+      <div style="display: none;" id="language_options"
+      class="options clearfix">
+        <ul>
+          <%
+          # Sort locales codes alphabetically: en, es, fr
+          sorted_locales = I18n.available_locales.sort {
+            |x,y| x.to_s <=> y.to_s }
+          %>
+          <% sorted_locales.each do |locale| %>
+            <% if locale == I18n.locale %>
+              <li><%= t(locale) %></li>
+            <% else %>
+              <%
+              # TODO: :only_path should already be forced to 'false' when using
+              # Subdomain-Fu, but for some reason this isn't happening
+              %>
+              <li><%= link_to(t(locale), :subdomain => locale,
+                :only_path => false) %></li>
+            <% end %>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+
+    <!--
+    <div id="site_search">
+      <input type="text" name="search_string" value="" />
+      <input type="submit" name="search_submit" value="Search" />
+    </div>
+    -->
+    
+    <div id="quote">
+      <%= random_fact %>
+    </div>
+  </div>
+</div>
+

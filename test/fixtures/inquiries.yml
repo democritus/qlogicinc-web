@@ -1,0 +1,15 @@
+one:
+  recipient_name: MyString
+  recipient_email: MyString
+  name: MyString
+  email: MyString
+  phone: 
+  message: MyText
+
+two:
+  recipient_name: MyString
+  recipient_email: MyString
+  name: MyString
+  email: MyString
+  phone: 
+  message: MyText

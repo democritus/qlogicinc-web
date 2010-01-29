@@ -1,0 +1,5 @@
+<% content_for :content do %>
+  <%= yield(:pages_content) or yield  %>
+<% end %>
+
+<%= render :file => 'layouts/application' %>

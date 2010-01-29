@@ -1,0 +1,176 @@
+/* 
+    Document   : common
+    Created on : Feb 20, 2009, 10:36:40 AM
+    Author     : brian
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* TODO: what is this? */
+root { 
+    display: block;
+}
+
+
+/* Forms */
+form {
+	clear: both;
+	margin-right: 20px;
+	padding: 0;
+	/*width: 80%;*/
+}
+fieldset {
+	border: 1px solid #ccc;
+	margin-top: 30px;
+	padding: 16px 20px;
+}
+fieldset legend {
+	color: #e32;
+	font-size: 160%;
+	font-weight: bold;
+}
+fieldset fieldset {
+	margin-top: 0px;
+	margin-bottom: 20px;
+	padding: 16px 0;
+}
+fieldset fieldset legend {
+	font-size: 120%;
+	font-weight: normal;
+	margin-left: 20px;
+}
+fieldset fieldset div.row {
+	clear: left;
+	margin: 0 20px;
+}
+form div.row {
+	clear: both;
+	margin-bottom: 1em;
+	padding: .5em;
+	vertical-align: text-top;
+}
+form div.input {
+	color: #444;
+}
+form div.required {
+	color: #333;
+	font-weight: bold;
+}
+form div.submit {
+	border: 0;
+	clear: both;
+	margin-top: 10px;
+	margin-left: 140px;
+}
+label {
+	display: block;
+	font-size: 110%;
+	padding-right: 20px;
+	white-space: nowrap; /* fixes radio buttons' labels from wrapping */
+}
+input, textarea {
+	clear: both;
+	display: block;
+	font-size: 140%;
+	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
+	padding: 2px;
+	width: 100%;
+}
+input[type=hidden] {
+  display: none;
+}
+select {
+	clear: both;
+	font-size: 120%;
+	vertical-align: text-bottom;
+}
+select[multiple=multiple] {
+	width: 100%;
+}
+option {
+	font-size: 120%;
+	padding: 0 3px;
+}
+input[type=checkbox] {
+	clear: left;
+	float: left;
+	margin: 0px 6px 7px 2px;
+	width: auto;
+}
+input[type=radio] {
+	clear: left;
+	float: left;
+	margin: 0px 6px 7px 2px;
+	width: auto;
+}
+input[type=submit] {
+	display: inline;
+	font-size: 110%;
+	padding: 2px 5px;
+	width: auto;
+	vertical-align: bottom;
+}
+div.inline_form_element {
+  float: left;
+  clear: none;
+  margin: 0 20px 0 0;
+}
+/* Auto complete */
+div.auto_complete {
+  width: 350px;
+  background: #fff ;
+}
+div.auto_complete ul {
+  border:1px solid #888 ;
+  margin:0;
+  padding:0;
+  width:100%;
+  list-style-type:none;
+}
+div.auto_complete ul li {
+  margin:0;
+  padding:3px;
+}
+div.auto_complete ul li.selected {
+  background-color: #ffb ;
+}
+div.auto_complete ul strong.highlight {
+  color: #800 ;
+  margin:0;
+  padding:0;
+}
+
+
+/* Site navigation */
+ul.horizontal_navigation {
+  margin: 0;
+  padding: 0;
+  float: right;
+  clear: right;
+}
+
+ul.horizontal_navigation li {
+  float: left;
+  margin-left: 20px;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+
+/* Hacks */
+
+/* Fix for clearing elements */
+/* NOTE: Use this if you need child elements to float on top of subsequent elements on page
+ * Automatically sticks an invisible '.' after the element so that floats
+ * don't protrude below their containing elements
+ */
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */

@@ -1,0 +1,160 @@
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  solutions_title: "Software solutions"
+  contact_title: "Contact us"
+  about_title: "About Qlogic, Inc."
+  
+  en: "English"
+  es: "Spanish"
+  fr: "French"
+  select_language: "Select language"
+  
+  quote_1: "Never doubt that a small group of thoughtful, committed citizens
+    can change the world. Indeed, it's the only thing that ever has."
+  quote_1_author: "Margaret Mead"
+  quote_2: "The use of solar energy has not been opened up because the oil
+    industry does not own the sun."
+  quote_2_author: "Ralph Nader"
+  quote_3: "Every aspect of our lives is, in a sense, a vote for the kind of
+    world we want to live in."
+  quote_3_author: "Francis Moore Lappe"
+  quote_4: "The frog does not drink up the pond in which he lives."
+  quote_4_author: "Native American Proverb"
+  quote_5: "The human brain now holds the key to our future. We have to
+    recall the image of the planet from outer space... a single entity in
+    which air, water, and continents are interconnected. That is our home."
+  quote_5_author: "David Suzuki"
+  quote_6: "Our personal consumer choices have ecological, social, and
+    spiritual consequences. It is time to re-examine some of our deeply held
+    notions that underlie our lifestyles."
+  quote_6_author: "David Suzuki"
+  quote_7: "We have to shift our emphasis from economic efficiency and
+    materialism towards a sustainable quality of life and to healing of our
+    society, of our people and our ecological systems."
+  quote_7_author: "Janet Holmes à Court"
+  quote_8: "Renewable energy is proven technology, the price is dropping,
+    the rest of the world is going that way, that's where our investment
+    should be going as well."
+  quote_8_author: "Bob Brown"
+  
+  factoid_title: "Fuel for Thought"
+  fact_1: "Each year, humankind adds six to eight billion tons of carbon to
+    the atmosphere by burning fossil fuels and destroying forest, pumping up
+    the concentration of greenhouse gases responsible for global warming--an
+    effect that could raise temperatures by three to ten degrees by the year
+    2050."
+  fact_2: "Each gallon of gas burned releases 22 pounds of carbon dioxide into
+    the atmosphere. In a year, the average car emits five tons of carbon
+    dioxide into the air."
+  fact_3: "Romans not only gave us the modern drainage system and many of our
+    roads, they were also among the first to use geothermal energy to heat
+    houses."
+  fact_4: "If it could be properly harnessed, enough sunlight falls on the
+    earth in just one hour to meet world energy demands for a whole year!"
+  fact_5: "Rainforests are being cut down at the rate of 100 acres per minute."
+  fact_6: "One-third of the water used in most homes is flushed down
+    the toilet."
+  fact_7: "Recycling one glass bottle saves enough energy to light a 100-watt
+    bulb for four hours."
+  fact_8: "An aluminum can that is thrown away will still be a can 500 years
+    from now."
+  fact_9: "Every ton of recycled office paper saves 380 gallons of oil."
+  fact_10: "Recycling one aluminum can saves an amount of energy equivalent
+    to half that can filled with gasoline."
+  fact_11: "Water is the most commonly used renewable energy resource,
+    providing enough power to meet the needs of 28.3 million people."
+  fact_12: "The largest wind turbine in the world, located in Hawaii,
+    stands 20 stories tall and has blades the length of a football field."
+  fact_13: "Using renewable energy technologies reduces pollution and
+    greenhouse gases from the burning of limited fossil fuels."
+  fact_14: "One wind turbine can produce enough electricity to power up to
+    300 homes."
+  
+  home_navigation_link: "Home"
+  solutions_navigation_link: "Solutions"
+  about_navigation_link: "About"
+  contact_navigation_link: "Contact"
+  
+  company: "company"
+  international: "international"
+  team: "team"
+  
+  our_mission: "Our mission is to utilize comprehensive energy solutions that
+    effectively fight global warming and offer cost savings to our clients."
+  company_overview: "Energía Natural de Centroamérica creates eco-friendly energy
+    solutions. We focus on energy-saving technologies that yield
+    cost-savings to our clients. Through consultation, design, and
+    implementation, Energía Natural assists businesses in reducing
+    their overall consumption. With solutions such as heating water via
+    solar power and intelligent controls to manage air conditioning, we
+    can help you realize your energy efficiency goals. And that's not just
+    good for business, it's also good for the Earth. {{contact_us}} and
+    we'll show you how to begin."
+  contact_us_link: "Contact us today"
+  international_overview: "We are headquartered in Costa Rica and are proud to
+    be a part of the many ecological efforts that can be found in this great
+    country. From here in San Jose, Costa Rica, we reach out to our neighbors
+    in Central America by participating in many ecological initiatives
+    throughout the region. Currently, we have projects in Guatemala and Mexico,
+    and are expanding operations to bring solutions to all countries of Central
+    America."
+  team_overview: "We are a team of highly-motivated individuals that have come
+    together with a vision of a better way to harness energy.  We understand
+    that it takes people and ideas to create the best solutions. In our process,
+    our client becomes part of the team. Together we move forward, implementing
+    energy-saving technologies for two purposes: (1) to help in the fight
+    against global warming, and (2) to cut energy costs for a business.
+    {{join_the_team}} today and let's get started!"
+  join_the_team_link: "Join the team"
+  
+  solar: "solar"
+  wind: "wind"
+  hydro: "hydro"
+  refrigeration_and_climatization: "refrigeration and climatization"
+  biogas: "biogas"
+  intelligent_control: "intelligent control"
+  solar_solution: "Energy from the sun can be converted into thermal or
+    electrical energy. By taking advantage of the sun's rays, eco-friendly
+    energy is produced and used for a variety of purposes."
+  wind_solution: "By employing simple kinetic energy generated by wind
+    currents, wind turbines are able to create clean electrical energy that
+    does not produce emissions."
+  hydro_solution: "Water movement can generate environmentally friendly
+    electrical energy. Hydro energy is a renewable form of power generation
+    and is a very effective method of converting energy into electricity.
+    Hydro energy produces little or no greenhouse gas emissions."
+  refrigeration_solution: "Advancement in refrigerant technologies have helped
+    to improve refrigeration and air conditioning systems.  Eco-friendly
+    refrigerants are replacing ozone-depleting ones."
+  biogas_solution: "Clean energy is generated by a gas produced from the
+    biological breakdown of organic matter.  There are a variety of uses for
+    biogas power, ranging from powering engines to running household
+    appliances. Compressed biogas can be used like natural gas."
+  intelligent_control_solution: "Sensors and software can be used to monitor
+    and manage the use of non-eco-friendly systems, thus helping to increase
+    energy efficiency and limit emissions.  Energy-consuming systems and
+    emissions-producing appliances can be controlled automatically."
+  
+  hotels: "hotels"
+  food: "food"
+  construction: "construction"
+  agriculture: "agriculture"
+  water_treatment: "water treatment"
+  factories: "factories"
+  
+  contact_title: "Contact us"  
+  name_label: "Name"
+  email_label: "Email address"
+  phone_label: "Phone number (optional)"
+  message_label: "Message"
+  submit_label: "Submit"
+  
+  inquiry_created_confirmation: "Thank you! Your inquiry was submitted
+    successfully."
+  inquiry_updated_confirmation: "Successfully updated inquiry."
+  inquiry_destroyed_confirmation: "Successfully destroyed inquiry."
+  
+  page_created_confirmation: "Successfully created page."
+  page_updated_confirmation: "Successfully updated page."
+  page_destroyed_confirmation: "Successfully destroyed page."

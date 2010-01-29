@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title><%= h(yield(:title) || "Qlogic, Inc.") %></title>
+    <%= stylesheet_link_tag 'common' %>
+    <%= stylesheet_link_tag 'application' %>
+    <%= stylesheet_link_tag 'main_layout' %>
+    <%= javascript_include_tag :defaults %>
+    <%= yield(:head) %>
+  </head>
+  <body>
+    <div id="main_canvas" class="glowing_canvas">
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <div class="top_left"></div>
+      <div class="top_right"></div>
+      <div class="bottom_left"></div>
+      <div class="bottom_right"></div>
+      <div class="canvas_innerds">
+        <%= render :partial => 'layouts/header' %>
+        <%= render :partial => 'layouts/site_navigation' %>
+      
+        <%- flash.each do |name, msg| -%>
+          <%= content_tag :div, msg, :id => "flash_#{name}" %>
+        <%- end -%>
+      
+        <%- if show_title? -%>
+          <h1><%=h yield(:title) %></h1>
+        <%- end -%>
+        
+        <div id="content" class="clearfix">
+          <%= yield(:content) or yield %>
+        </div>
+        
+        <%= render :partial => 'layouts/factoids' %>
+      </div>
+    </div>
+    <%= render :partial => 'layouts/footer' %>
+  </body>
+</html>

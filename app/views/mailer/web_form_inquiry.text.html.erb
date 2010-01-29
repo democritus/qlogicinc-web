@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  </head>
+  <body>
+    Hello <%= @inquiry['recipient_name'] %>, you have received a general
+    inquiry from <%= from_name %>.<br />
+    <br />
+    
+    <strong>Recipient:</strong><br />
+    Recipient name: <%= @inquiry.recipient_name %><br />
+    Recipient email: <%= @inquiry.recipient_email %><br />
+    <br />
+    
+    <strong>Sender:</strong><br />
+    Sender name: <%= @inquiry.name %><br />
+    Sender email: <%= @inquiry.email %><br />
+    Sender phone: <%= @inquiry.phone %><br />
+    <br />
+        
+    <strong>Message</strong><br />
+    <%= @inquiry.message %><br />
+    <br />
+    <br />    
+  </body>
+</html>
+

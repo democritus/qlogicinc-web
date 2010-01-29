@@ -1,0 +1,32 @@
+<% title "Inquiry" %>
+
+<p>
+  <strong>Recipient Name:</strong>
+  <%=h @inquiry.recipient_name %>
+</p>
+<p>
+  <strong>Recipient Email:</strong>
+  <%=h @inquiry.recipient_email %>
+</p>
+<p>
+  <strong>Name:</strong>
+  <%=h @inquiry.name %>
+</p>
+<p>
+  <strong>Email:</strong>
+  <%=h @inquiry.email %>
+</p>
+<p>
+  <strong>Phone:</strong>
+  <%=h @inquiry.phone %>
+</p>
+<p>
+  <strong>Message:</strong>
+  <%=h @inquiry.message %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_inquiry_path(@inquiry) %> |
+  <%= link_to "Destroy", @inquiry, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", inquiries_path %>
+</p>

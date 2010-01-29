@@ -1,0 +1,27 @@
+<% title "Inquiries" %>
+
+<table>
+  <tr>
+    <th>Recipient Name</th>
+    <th>Recipient Email</th>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone</th>
+    <th>Message</th>
+  </tr>
+  <% for inquiry in @inquiries %>
+    <tr>
+      <td><%=h inquiry.recipient_name %></td>
+      <td><%=h inquiry.recipient_email %></td>
+      <td><%=h inquiry.name %></td>
+      <td><%=h inquiry.email %></td>
+      <td><%=h inquiry.phone %></td>
+      <td><%=h inquiry.message %></td>
+      <td><%= link_to "Show", inquiry %></td>
+      <td><%= link_to "Edit", edit_inquiry_path(inquiry) %></td>
+      <td><%= link_to "Destroy", inquiry, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Inquiry", new_inquiry_path %></p>

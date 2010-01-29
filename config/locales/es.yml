@@ -1,0 +1,170 @@
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+es:
+  solutions_title: "Soluciones para ahorrar energía"
+  contact_title: "Contáctenos"
+  about_title: "Acerca de nosotros"
+  
+  en: "inglés"
+  es: "español"
+  fr: "francés"
+  select_language: "Seleccionar idioma"
+  
+  quote_1: "Nunca dudes que un pequeño grupo de personas pensativas y
+    entregadas puede cambiar el mundo. De hecho, es la única cosa que lo ha
+    logrado."
+  quote_1_author: "Margaret Mead"
+  quote_2: "El uso de energía solar no ha despegado por que la industria del
+    petróleo no posee el sol."
+  quote_2_author: "Ralph Nader"
+  quote_3: "Cada aspecto de nuestras vidas es, en algún sentido, un voto para
+    el tipo de mundo en que queremos vivir."
+  quote_3_author: "Francis Moore Lappe"
+  quote_4: "La rana no se bebe todo el estanque en el que vive."
+  quote_4_author: "Proverbio indio americano"
+  quote_5: "El cerebro humano ya contiene la llave a nuestro futuro. Tenemos
+    que recordar la imagen del planeta desde el espacio... una sola entidad
+    en la que están interconectadas el aire, el agua y los continentes. Esa
+    es nuestra casa."
+  quote_5_author: "David Suzuki"
+  quote_6: "Nuestras decisiones de consumo personal tienen consecuencias
+    ecológicas, sociales, y espirituales. Es hora de volver a examinar
+    algunas de nuestras nociones muy arraigadas que subyacen a nuestro estilo
+    de vida."
+  quote_6_author: "David Suzuki"
+  quote_7: "Tenemos que cambiar nuestro enfoque desde la eficiencia económico
+    y el materialismo hacia una calidad de la vida sostenible y para
+    la curación de nuestra sociedad, de nuestra gente y nuestros sistemas
+    ecológicos."
+  quote_7_author: "Janet Holmes à Court"
+  quote_8: "Energía renovable es una tecnología probada. El precio está
+    bajando, el resto del mundo se va de esa manera. Ahí es donde nuestra
+    inversión debe ir también."
+  quote_8_author: "Bob Brown"
+  
+  factoid_title: "Para meditar"
+  fact_1: "Cada año, la humanidad añade seis a ocho mil millones de toneladas
+    de carbono a la atmósfera por la quema de combustibles fósiles y la
+    destrucción de los bosques, aumentando la concentración de gases de
+    efecto invernadero responsables del calentamiento global - un efecto que
+    podría elevar las temperaturas de tres a diez grados antes del año 2050."
+  fact_2: "Cada galón de gas quemado emite 22 libras de dióxido de carbono
+    a la atmósfera. En un año, cada automóvil emite cinco toneladas de dióxido
+    de carbono en el aire."
+  fact_3: "Los romanos no sólo nos dieron el sistema de drenaje moderno y
+    muchas de nuestras carreteras, también estaban entre los primeros en
+    utilizar la energía geotérmica para calentar las casas."
+  fact_4: "Si se pudiera aprovechar adecuadamente, la suficiente luz del sol
+    que cae sobre la tierra en sólo una hora, podríamos satisfacer la demanda
+    mundial de energía para todo un año!"
+  fact_5: "Selvas tropicales están siendo taladas a un ritmo de 100 hectáreas
+    por minuto."
+  fact_6: "Un tercio del agua utilizada en la mayoría de los hogares es
+    tirada por el inodoro."
+  fact_7: "El reciclaje de una botella de vidrio ahorra suficiente energía
+    para iluminar una bombilla de 100 vatios durante cuatro horas."
+  fact_8: "Una lata de aluminio que se tira seguirá siendo una lata 500
+    años a partir de ahora."
+  fact_9: "Cada tonelada de papel de oficina reciclado ahorra 380 galones
+    de petróleo."
+  fact_10: "Reciclar una lata de aluminio ahorra una cantidad de energía
+    equivalente a la mitad de un tarro de gasolina."
+  fact_11: "El agua es el más utilizado de los recursos de energía
+    renovables, proporcionando la energía suficiente para satisfacer
+    las necesidades de 28,3 millones de personas."
+  fact_12: "La turbina eólica más grande del mundo, ubicado en Hawai,
+    se encuentra a 20 pisos de altura y tiene aspas de la longitud de
+    un campo de fútbol."
+  fact_13: "El uso de tecnologías de energía renovable reduce la contaminación
+    y los gases de efecto invernadero de la quema de combustibles fósiles
+    limitados."
+  fact_14: "Una turbina eólica puede producir suficiente electricidad para
+    abastecer a 300 hogares."
+  
+  home_navigation_link: "Inicio"
+  solutions_navigation_link: "Soluciones"
+  about_navigation_link: "Acerca de nosotros"
+  contact_navigation_link: "Contáctenos"
+  
+  company: "compañía"
+  international: "internacional"
+  team: "equipo"
+      
+  our_mission: "Nuestra misión es utilizar soluciones de energía comprensivas
+    para combatir efectivamente el calentamiento global y ofrecer a nuestros
+    clientes un ahorro de costos."
+  company_overview: "Energía Natural de Centroamérica crea soluciones
+    energéticas que son amigables con el ambiente. Nos centramos en
+    tecnologías que proporcionan un ahorro de costo a nuestros clientes.
+    Através de la consulta, el diseño, y su ejecución, Energía Natural ayuda
+    a las empresas a reducir su consumo total. Con tales soluciones como
+    el calentamiento de agua mediante energía solar y los controles
+    inteligentes para manejar el uso de electricidad en los edificios,
+    podemos ayudarle a realizar sus metas de eficiencia energética. Y esto
+    no solo es bueno para los negocios, sino que también es bueno para la
+    Tierra. {{contact_us}} y le mostraremos cómo comenzar."
+  contact_us_link: "Contáctanos hoy"
+  international_overview: "Estamos orgullosos de ser parte de los esfuerzos
+    ecológicos que se pueden encontrar en Costa Rica. Desde la sede en San
+    José, la capital de Costa Rica, nos acercamos a nuestros vecinos en
+    Centroamérica participando en las muchas iniciativas ecológicas de la
+    región. Actualmente, tenemos proyectos en Guatemala y México, y estamos
+    ampliando las operaciones para aportar soluciones a todos los países de
+    Centroamérica."
+  team_overview:  "Somos un equipo de personas altamente motivadas que se 
+    han unido con la visión de mejorar la forma de aprovechar la energía 
+    que dispone nuestro planeta. Entendemos que se necesitan las personas
+    y las ideas indicadas para crear las mejores soluciones. Por eso, nuestro
+    proceseo incluye el cliente como parte del equipo. Juntos podemos avazar,
+    poniendo en obra soluciones de ahorro para dos propósitos: (1) ayudar
+    en la lucha contra el calentamiento global y otros efectos dañosos del mal
+    uso de los combustibles fósiles, y (2) reducir los costos de energía para
+    el consumidor. ¡{{join_the_team}} y comenzamos hoy!"
+  join_the_team_link: 'Unete al equipo'
+    
+  solar: "solar"
+  wind: "eólica"
+  hydro: "hídrica"
+  refrigeration_and_climatization: "refrigeración y climatización"
+  biogas: "biogas"
+  intelligent_control: "control inteligente"
+
+  solar_solution:  "Mediante el aprovechamiento de la radiación del sol, por
+    medio de paneles solares, se genera energía térmica, amigable con el
+    ambiente y con un retorno de inversión de alrededor dos años."
+  wind_solution:  "Con un eficiente diseño de aeromotores logramos obtener
+    energía eléctrica limpia que no produce emisiones con el simple uso de la
+    energía cinética generada por efecto de las corrientes de aire."
+  hydro_solution:  "Mediante el aprovechamiento del movimiento del agua
+    logramos generar energía eléctrica amigable con el ambiente."
+  refrigeration_solution:  "Diseños y mejoras de sistemas de refrigeración y
+    aire acondicionado con la implementación de refrigerantes eficientes y
+    amigables con el ambiente."
+  biogas_solution:  "Un tipo de energía limpia es generada por la combustión
+    de un gas producido en medios naturales o en dispositivos específicos,
+    por las reacciones de biodegración de la materia orgánica."
+  intelligent_control_solution:  "Ahorro y Monitoreo Energético de sistemas
+    de alto nivel de eficiencia con componentes de punta. Última tecnología en
+    monitoreo (radio frecuencias, WiFi, sistemas de seguridad, entre otros)."
+  
+  hotels: "hoteles"
+  food: "industria alimenticia"
+  construction: "construcción"
+  agriculture: "industria agrícola"
+  water_treatment: "tratamiento de agua"
+  factories: "fábricas"
+  
+  contact_title: "Contáctenos"
+  name_label: "Nombre"
+  email_label: "Correo electrónico"
+  phone_label: "Número de teléfono (opcional)"
+  message_label: "Mensaje"
+  submit_label: "Enviar"
+  
+  inquiry_created_confirmation: "Gracias! Tu mensaje fue enviado con éxito."
+  inquiry_updated_confirmation: "Inquiry actualizado con éxito."
+  inquiry_destroyed_confirmation: "Inquiry destruido con éxito."
+  
+  page_created_confirmation: "Página creado con éxito."
+  page_updated_confirmation: "Página actualizado con éxito."
+  page_destroyed_confirmation: "Página destruido con éxito."

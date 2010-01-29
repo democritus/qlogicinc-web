@@ -1,0 +1,32 @@
+<div id="site_navigation" class="clearfix">
+  <div>
+    <%
+    pages = [
+      {'label' => t(:home_navigation_link), 'permalink' => 'home'},
+      {'label' => t(:solutions_navigation_link), 'permalink' => 'solutions'},
+      {'label' => t(:about_navigation_link), 'permalink' => 'about'},
+      {'label' => t(:contact_navigation_link), 'permalink' => 'contact'}
+    ]
+    %>
+    <% pages.each do |page| %>
+      <%
+      unless page['permalink'] == 'contact'
+        path = static_path(page['permalink'])
+        if params[:permalink]
+          if params[:permalink] == page['permalink']
+            class_attribute = ' class="active"'
+          end
+        end
+      else
+        path = contact_path
+        if params[:controller] == 'inquiries' && params[:action] == 'new'
+          class_attribute = ' class="active"'
+        end
+      end
+      %>
+      <div<%= class_attribute %>>
+        <%= link_to page['label'], path %>
+      </div>
+    <% end %>
+  </div>
+</div>

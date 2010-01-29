@@ -1,0 +1,45 @@
+<%
+#title t(:contact_title)
+%>
+
+<%
+#image_width = '100%'
+image_width = 300
+image_height = 203
+%>
+<div class="columned padded">
+  <div class="outer two_fifths">
+    <div class="inner">
+  
+      <% content_tag :div, :style => 'float: left; margin: 0px 15px 10px 0' do %>
+        <%= image_tag 'xyz.jpg', :width => 300, :height => 200 %>
+      <% end %>
+      
+      <div class="text large_text">
+        <!--
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis,
+          lacus eu blandit laoreet, enim nibh mollis. Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit. Morbi venenatis, lacus eu blandit laoreet,
+          enim nibh mollis.
+        </p>
+        -->
+        <p>
+          <strong><%= COMPANY_NAME %></strong><br />
+          Houston, TX<br />
+          Tel: (281) 970-3700<br />
+          Email: <%= INQUIRY_EMAIL %>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="outer three_fifths">
+    <div class="inner">
+      <% unless flash[:notice].blank? %>
+        <p style="color: green"><%= flash[:notice] %></p>
+      <% end %>
+      <%= render :partial => 'contact_form' %>
+    </div>
+  </div>
+</div>
+

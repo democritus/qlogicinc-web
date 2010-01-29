@@ -1,0 +1,17 @@
+<% 
+# Provide content for title of page - this loads the title into
+# "content_for :title which can then be used in <title></title> tags and
+# any other location
+title @page.name
+%>
+
+<% unless @page.content.blank? %>
+  <%= @page.content %>
+<% end %>
+
+<p>
+  <%= link_to "Edit", edit_page_path(@page) %> |
+  <%= link_to "Destroy", @page, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", pages_path %>
+</p>
+
