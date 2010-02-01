@@ -41,8 +41,17 @@
     -->
     
     <div id="quote">
-      <%= random_fact %>
+      <NOSCRIPT>
+        <%= random_fact %>
+      </NOSCRIPT>
     </div>
+    <%= random_fact_js %>
+    <% javascript_tag do %>
+      document.observe('dom:loaded', function() {
+        $('quote').innerHTML=facts[1]
+        $('factoid').innerHTML=facts[1]
+      });
+    <% end %>
   </div>
 </div>
 

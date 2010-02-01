@@ -3,13 +3,13 @@ body {
   margin-bottom: 25px;
   padding: 0;
   background-color: #555253;
-  font-family: "Arial", "Bitstream Vera Sans", "Verdana", "Helvetica";
+  font-family: "Bitstream Vera Sans", "Verdana", "Arial", "Helvetica";
   font-size: 14px;
   color: #444;
 }
 
 h1 {
-  font-size: 28px;
+  font-size: 160%;
   color: #000;
 }
 
@@ -113,7 +113,7 @@ div.glowing_canvas div.bottom_right {
 }
 
 #header #site_logo div {
-  font-size: 14px;
+  font-size: 100%;
   font-weight: bold;
   margin: 0.70em 5px;
 }
@@ -194,7 +194,7 @@ div.glowing_canvas div.bottom_right {
 
 #header div.float_right #quote {
   margin-top: 5px;
-  font-size: 85%;
+  font-size: 90%;
   font-style: italic;
   line-height: 1.3em;
   height: 7em;
@@ -286,12 +286,12 @@ div.columned div.borderless {
 div.columned div.text {
   float: left;
   clear: left;
-  font-size: 85%;
+  font-size: 100%;
   line-height: 1.5em;
 }
 
 div.columned div.large_text {
-  font-size: 105%;
+  font-size: 110%;
 }
 
 div.columned div.text p {
@@ -343,7 +343,7 @@ div.page_header_row {
   float: left;
   clear: left;
   margin-bottom: 30px;
-  font-size: 120%;
+  font-size: 130%;
   line-height: 1.4em;
   width: 826px;
 }
@@ -397,7 +397,7 @@ div.page_header_row div.text p {
   border-bottom: 1px solid #d8d8d8;
   color: #686868;
   margin-top: 15px;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 #factoids table {
@@ -418,7 +418,7 @@ div.page_header_row div.text p {
   margin: 0 auto;
   color: #808080;
   width: 876px;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 #footer div.innerds {
@@ -440,7 +440,7 @@ REMOVED (looks bad... could use dark_canvas as reflection of glowing_canvas)
   color: #555;
   background-color: #c0c0c0;
   margin-top: -40px;
-  font-size: 85%;
+  font-size: 90%;
 }
 
 div.dark_canvas {

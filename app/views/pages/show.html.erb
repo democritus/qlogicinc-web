@@ -1,17 +1,34 @@
-<% 
-# Provide content for title of page - this loads the title into
-# "content_for :title which can then be used in <title></title> tags and
-# any other location
-title @page.name
+<%
+if @page
+  title @page.permalink
+  content_from_database = @page.content
+else
+  title params[:permalink].capitalize
+end
 %>
 
-<% unless @page.content.blank? %>
-  <%= @page.content %>
+<% content_for :pages_content do %>
+  <% if @page %>
+    <%= content_from_database %>
+  <% else %>
+    <%
+    filename = RAILS_ROOT + '/app/views/pages/source/_' +
+      params[:permalink] + '.html.erb'
+    f = File.new(filename)
+    if File.exists?(filename)
+      %>
+      <%= render :file => filename %>
+      <%
+    end
+    %>
+  <% end %>
 <% end %>
 
-<p>
-  <%= link_to "Edit", edit_page_path(@page) %> |
-  <%= link_to "Destroy", @page, :confirm => 'Are you sure?', :method => :delete %> |
-  <%= link_to "View All", pages_path %>
-</p>
+<% if @page %>
+  <p>
+    <%= link_to "Edit", edit_page_path(@page) %> |
+    <%= link_to "Destroy", @page, :confirm => 'Are you sure?', :method => :delete %> |
+    <%= link_to "View All", pages_path %>
+  </p>
+<% end %>
 

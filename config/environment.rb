@@ -25,7 +25,7 @@ Rails::Initializer.run do |config|
   config.gem 'subdomain-fu',
     :lib     => 'subdomain-fu',
     :source  => 'http://gems.github.com',
-    :version => '0.5.3'
+    :version => '0.5.4'
 
   # Only load the plugins named here, in the order given (default is alphabetical).
   # :all can be used as a placeholder for all plugins not explicitly named
@@ -45,11 +45,22 @@ Rails::Initializer.run do |config|
   # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
   # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}')]
   # config.i18n.default_locale = :de
+  
+  # 2009-06-01 Brian Warren
+  # NOTE: Web server must be configured if non-default directory used here.
+  # Default works without configuring web server:
+  #   myapp/public
+  # Consolidate caches in "cache" directory. Doesn't work unless web directory
+  # is reconfigured:
+  #   myapp/public/cache
+  config.action_controller.page_cache_directory = File.join(
+    Rails.root, 'public/cache'
+  )
 end
 
 ## SubdomainFu plugin configuration
 SubdomainFu.tld_sizes = { :development => 1, :test => 1, :production => 1 }
-SubdomainFu.mirrors = [ 'en', 'es' ]
+SubdomainFu.mirrors = [ 'en', 'es', 'fr' ]
 SubdomainFu.preferred_mirror = 'en'
 
 # Constants

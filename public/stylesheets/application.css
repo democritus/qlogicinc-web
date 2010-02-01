@@ -44,7 +44,7 @@ a {
   text-align: left;
   font-weight: bold;
   padding: 5px 5px 5px 15px;
-  font-size: 12px;
+  font-size: 90%;
   margin: 0;
   background-color: #c00;
   color: #fff;
@@ -61,7 +61,7 @@ a {
 }
 
 #errorExplanation ul li {
-  font-size: 12px;
+  font-size: 90%;
   list-style: disc;
 }
 

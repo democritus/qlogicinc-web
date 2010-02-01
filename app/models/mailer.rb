@@ -42,7 +42,7 @@ class Mailer < ActionMailer::Base
   end
   
   def from_header
-    'User Services <noreply@' + DOMAIN '>'
+    "User Services <noreply@" + DOMAIN + '>'
   end
   
   def web_form_inquiry(inquiry)

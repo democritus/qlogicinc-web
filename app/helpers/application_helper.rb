@@ -1,6 +1,26 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
+  def website_author_link_tag(email)
+    tag :link, { :href => 'mailto:' + email, :rev => 'made' }
+  end
+  
+  def alternate_languages_link_tag
+    html = ''
+    I18n.available_locales.each do |locale|
+      next if I18n.locale == locale
+      html += tag(:link,
+        {
+          :rel => 'alternate',
+          :href => url_for(:subdomain => locale, :only_path => false),
+          :hreflang => locale,
+          :title => t(locale) + ' translation'
+        }
+      ) + "\n"
+    end
+    return html
+  end
+  
   # Automatically include LabellingFormBuilder into form_for block
   def labelled_form_for(record_or_name_or_array, *args, &proc)
     options = args.extract_options!
@@ -66,6 +86,19 @@ def random_fact
     t(:fact_14)
   ]
   return facts[rand(facts.length)]
+end
+
+# Randomly sort facts in javascript array. Allows page caching as client is
+# responsible for dynamically choosing which fact to display
+def random_fact_js
+  js = 'var facts=[' + "\n"
+  (1..14).each do |i|
+    js += ',' + "\n" unless i < 2
+    js += '"' + escape_javascript(t("fact_#{i}".to_sym)) + '"'
+  end
+  js += ']' + "\n"
+  js += "facts.sort(function() {return 0.5 - Math.random()})"
+  javascript_tag(js)
 end
 
 # Customize FormBuilder's output
