@@ -1,9 +1,9 @@
 <%
 if @page
-  title @page.permalink
+  title(@page.permalink, false)
   content_from_database = @page.content
 else
-  title params[:permalink].capitalize
+  title(params[:permalink].capitalize, false)
 end
 %>
 
@@ -17,7 +17,7 @@ end
     f = File.new(filename)
     if File.exists?(filename)
       %>
-      <%= render :file => filename %>
+      <%= render :partial => '/pages/source/' + params[:permalink] %>
       <%
     end
     %>

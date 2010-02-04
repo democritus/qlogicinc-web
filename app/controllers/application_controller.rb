@@ -8,10 +8,22 @@ class ApplicationController < ActionController::Base
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
   
-  before_filter :set_locale
+  before_filter :set_locale, :set_page_caching_status
 
 
   private
+  
+  # Need variable in view to know if caching is enabled. Used to save
+  # javascript into cached page so that certain dynamic things are handled by
+  # client-side javascript since Rails is skipped when page caching is on
+  # TODO: better way?
+  def set_page_caching_status
+    if perform_caching && caching_allowed
+      @page_caching_active = true
+    else
+      @page_caching_active = false
+    end
+  end
   
   # Get locale code from request subdomain (like http://es.domain.tld)
   def extract_locale_from_subdomain

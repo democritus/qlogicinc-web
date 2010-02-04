@@ -1,19 +1,12 @@
 <div class="uncolumned">
 
-  <% content_tag :div, :style => 'float: left; margin: 0px 15px 10px 0' do %>
-    <%= image_tag 'xyz.jpg', :width => 300, :height => 200 %>
+  <% content_tag :div, :class => 'left' do %>
+    <%= image_tag 'takeoff.jpg', :width => 300, :height => 200 %>
   <% end %>
   
-  <p>Qlogic, Inc. develops customized passenger processing software for airlines
-  and common-use airports (CUTE, MUSE, CREWS, etc.). Click here to contact us
-  today about your software requirements.</p>
-
-  <p>We specialize in self-service check-in, browser-based GUI client
-  applications, passenger boarding applications, terminal emulation, and
-  peripheral management. All of our software can be made to run on any or all
-  common-use airport systems.</p>
-
-  <p>We have developed custom software for a diverse range of air travel
-  companies all over the world. Some of our clients include United Airlines,
-  Continental Airlines, blah, blah, blah.</p>
+  <p><%= COMPANY_NAME %> develops customized passenger processing software for airlines and common-use airports all over the world. We specialize in creating products that can be run on any (or all) common-use airport systems.</p>
+  
+  Some of our products include passenger boarding control, GUI client, and self check-in. Both Windows™ and browser-based implementations are supported. See our <%= link_to 'solutions page', '/solutions' %> to find out more about these products.</p>
+ 
+  <p>Please use our <%= link_to 'contact form', '/contact' %> to request a quote.</p>
 </div>

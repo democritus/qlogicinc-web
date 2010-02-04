@@ -12,6 +12,16 @@ class PagesController < ApplicationController
     else
       @page = Page.find(params[:id])
     end
+    # Use layout with contact form for contact page
+    if params[:permalink] == 'contact'    
+      if session[:inquiry] # Load data from session after redirect
+        @inquiry = session[:inquiry]
+        session[:inquiry] = nil
+      else
+        @inquiry = Inquiry.new
+      end
+      render :layout => 'pages_contact'
+    end
   end
   
   def new
@@ -24,6 +34,7 @@ class PagesController < ApplicationController
       flash[:notice] = t(:page_created_confirmation)
       redirect_to @page
     else
+      flash.merge!(session[:flash]) unless session[:flash].blank?
       render :action => 'new'
     end
   end

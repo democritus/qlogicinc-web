@@ -5,6 +5,9 @@
     <%= f.hidden_field :subject,
       :value => 'General inquiry from web form' %>
     <div class="row">
+      <%= f.text_area :message, :label_text => t(:message_label) + ':' %>
+    </div>
+    <div class="row">
       <%= f.text_field :name, :label_text => t(:name_label) + ':' %>
     </div>
     <div class="row">
@@ -12,9 +15,6 @@
     </div>
     <div class="row">
       <%= f.text_field :phone, :label_text => t(:phone_label) + ':' %>
-    </div>
-    <div class="row">
-      <%= f.text_area :message, :label_text => t(:message_label) + ':' %>
     </div>
     <div class="submit clearfix">
       <%= submit_tag t(:submit_label) %>

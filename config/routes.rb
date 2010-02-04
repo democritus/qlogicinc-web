@@ -1,9 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
 
-  map.resources :inquiries,
-    :member => { :contact => :get }
-    #:only => [ :contact, :new ] # Hide admin pages until admin utilities
-                                # are secure. TODO: authentication & security
+  map.resources :inquiries
   map.resources :pages
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -44,8 +41,9 @@ ActionController::Routing::Routes.draw do |map|
 
   # 2010-01-26 - Brian Warren brian@ecoembassy.org - Static pages
   
+  # REMOVED: moved contact form to special pages_contact layout
   # Map /contact to new_inquiries_path()
-  map.contact '/contact', :controller => 'inquiries', :action => 'new'
+  #map.contact '/contact', :controller => :inquiries, :action => :new
   
   # Explicitly access static pages with "static" in URL
   #map.static 'static/:permalink', :controller => 'pages', :action => 'show'

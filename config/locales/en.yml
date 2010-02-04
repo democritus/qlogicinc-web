@@ -3,73 +3,47 @@
 en:
   solutions_title: "Software solutions"
   contact_title: "Contact us"
-  about_title: "About Qlogic, Inc."
+  about_title: "About us"
   
   en: "English"
   es: "Spanish"
   fr: "French"
   select_language: "Select language"
   
-  quote_1: "Never doubt that a small group of thoughtful, committed citizens
-    can change the world. Indeed, it's the only thing that ever has."
-  quote_1_author: "Margaret Mead"
-  quote_2: "The use of solar energy has not been opened up because the oil
-    industry does not own the sun."
-  quote_2_author: "Ralph Nader"
-  quote_3: "Every aspect of our lives is, in a sense, a vote for the kind of
-    world we want to live in."
-  quote_3_author: "Francis Moore Lappe"
-  quote_4: "The frog does not drink up the pond in which he lives."
-  quote_4_author: "Native American Proverb"
-  quote_5: "The human brain now holds the key to our future. We have to
-    recall the image of the planet from outer space... a single entity in
-    which air, water, and continents are interconnected. That is our home."
-  quote_5_author: "David Suzuki"
-  quote_6: "Our personal consumer choices have ecological, social, and
-    spiritual consequences. It is time to re-examine some of our deeply held
-    notions that underlie our lifestyles."
-  quote_6_author: "David Suzuki"
-  quote_7: "We have to shift our emphasis from economic efficiency and
-    materialism towards a sustainable quality of life and to healing of our
-    society, of our people and our ecological systems."
-  quote_7_author: "Janet Holmes à Court"
-  quote_8: "Renewable energy is proven technology, the price is dropping,
-    the rest of the world is going that way, that's where our investment
-    should be going as well."
-  quote_8_author: "Bob Brown"
+  quote_1: "I don't know what you could say about a day in which you have seen
+    four beautiful sunsets."
+  quote_1_author: "John Glenn"
+  quote_2: "No flying machine will ever fly from New York to Paris."
+  quote_2_author: "Orville Wright"
+  quote_3: "For once you have tasted flight you will walk the earth with your
+    eyes turned skywards, for there you have been and there you will long
+    to return."
+  quote_3_author: "Leonardo da Vinci"
+  quote_4: "We can't solve problems by using the same kind of thinking we used
+    when we created them."
+  quote_4_author: "Albert Einstein"
+  quote_5: "The key is not to prioritize what's on your schedule, but to
+    schedule your priorities."
+  quote_5_author: "Stephen R. Covey"
+  quote_6: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+  quote_6_author: "Aristotle"
   
   factoid_title: "Fuel for Thought"
-  fact_1: "Each year, humankind adds six to eight billion tons of carbon to
-    the atmosphere by burning fossil fuels and destroying forest, pumping up
-    the concentration of greenhouse gases responsible for global warming--an
-    effect that could raise temperatures by three to ten degrees by the year
-    2050."
-  fact_2: "Each gallon of gas burned releases 22 pounds of carbon dioxide into
-    the atmosphere. In a year, the average car emits five tons of carbon
-    dioxide into the air."
-  fact_3: "Romans not only gave us the modern drainage system and many of our
-    roads, they were also among the first to use geothermal energy to heat
-    houses."
-  fact_4: "If it could be properly harnessed, enough sunlight falls on the
-    earth in just one hour to meet world energy demands for a whole year!"
-  fact_5: "Rainforests are being cut down at the rate of 100 acres per minute."
-  fact_6: "One-third of the water used in most homes is flushed down
-    the toilet."
-  fact_7: "Recycling one glass bottle saves enough energy to light a 100-watt
-    bulb for four hours."
-  fact_8: "An aluminum can that is thrown away will still be a can 500 years
-    from now."
-  fact_9: "Every ton of recycled office paper saves 380 gallons of oil."
-  fact_10: "Recycling one aluminum can saves an amount of energy equivalent
-    to half that can filled with gasoline."
-  fact_11: "Water is the most commonly used renewable energy resource,
-    providing enough power to meet the needs of 28.3 million people."
-  fact_12: "The largest wind turbine in the world, located in Hawaii,
-    stands 20 stories tall and has blades the length of a football field."
-  fact_13: "Using renewable energy technologies reduces pollution and
-    greenhouse gases from the burning of limited fossil fuels."
-  fact_14: "One wind turbine can produce enough electricity to power up to
-    300 homes."
+  fact_1: "More than three million people around the world fly on commercial
+    aircraft every day."
+  fact_2: "In the United States, it is 22 times safer to fly on a commercial jet
+    than travel by car"
+  fact_3: "According to the U.S. Congress, air traffic delays cost the
+    American economy more than $40 billion per year."
+  fact_4: "Domestic airlines in the U.S. spend a combined $2 to $5 billion on
+    jet fuel every month."
+  fact_5: "On average there are 61,000 people airborne over the United
+    States at any given hour."
+  fact_6: "The busiest airport in the world is Hartsfield-Jackson International
+    in Atlanta. Just under one million planes take off from this airport per
+    year--that's one departure every 32 seconds."
+  fact_7: "In-flight catering is an $18 billion worldwide industry employing
+    up to 200,000 people."
   
   home_navigation_link: "Home"
   solutions_navigation_link: "Solutions"
@@ -143,7 +117,7 @@ en:
   water_treatment: "water treatment"
   factories: "factories"
   
-  contact_title: "Contact us"  
+  contact_title: "Contact us"
   name_label: "Name"
   email_label: "Email address"
   phone_label: "Phone number (optional)"

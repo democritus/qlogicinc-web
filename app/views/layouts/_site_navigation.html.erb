@@ -10,16 +10,9 @@
     %>
     <% pages.each do |page| %>
       <%
-      unless page['permalink'] == 'contact'
-        path = static_path(page['permalink'])
-        if params[:permalink]
-          if params[:permalink] == page['permalink']
-            class_attribute = ' class="active"'
-          end
-        end
-      else
-        path = contact_path
-        if params[:controller] == 'inquiries' && params[:action] == 'new'
+      path = static_path(page['permalink'])
+      if params[:permalink]
+        if params[:permalink] == page['permalink']
           class_attribute = ' class="active"'
         end
       end

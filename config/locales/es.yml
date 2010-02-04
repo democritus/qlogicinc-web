@@ -9,77 +9,11 @@ es:
   es: "español"
   fr: "francés"
   select_language: "Seleccionar idioma"
-  
-  quote_1: "Nunca dudes que un pequeño grupo de personas pensativas y
-    entregadas puede cambiar el mundo. De hecho, es la única cosa que lo ha
-    logrado."
-  quote_1_author: "Margaret Mead"
-  quote_2: "El uso de energía solar no ha despegado por que la industria del
-    petróleo no posee el sol."
-  quote_2_author: "Ralph Nader"
-  quote_3: "Cada aspecto de nuestras vidas es, en algún sentido, un voto para
-    el tipo de mundo en que queremos vivir."
-  quote_3_author: "Francis Moore Lappe"
-  quote_4: "La rana no se bebe todo el estanque en el que vive."
-  quote_4_author: "Proverbio indio americano"
-  quote_5: "El cerebro humano ya contiene la llave a nuestro futuro. Tenemos
-    que recordar la imagen del planeta desde el espacio... una sola entidad
-    en la que están interconectadas el aire, el agua y los continentes. Esa
-    es nuestra casa."
-  quote_5_author: "David Suzuki"
-  quote_6: "Nuestras decisiones de consumo personal tienen consecuencias
-    ecológicas, sociales, y espirituales. Es hora de volver a examinar
-    algunas de nuestras nociones muy arraigadas que subyacen a nuestro estilo
-    de vida."
-  quote_6_author: "David Suzuki"
-  quote_7: "Tenemos que cambiar nuestro enfoque desde la eficiencia económico
-    y el materialismo hacia una calidad de la vida sostenible y para
-    la curación de nuestra sociedad, de nuestra gente y nuestros sistemas
-    ecológicos."
-  quote_7_author: "Janet Holmes à Court"
-  quote_8: "Energía renovable es una tecnología probada. El precio está
-    bajando, el resto del mundo se va de esa manera. Ahí es donde nuestra
-    inversión debe ir también."
-  quote_8_author: "Bob Brown"
+ 
+  # Todo: quotes
   
   factoid_title: "Para meditar"
-  fact_1: "Cada año, la humanidad añade seis a ocho mil millones de toneladas
-    de carbono a la atmósfera por la quema de combustibles fósiles y la
-    destrucción de los bosques, aumentando la concentración de gases de
-    efecto invernadero responsables del calentamiento global - un efecto que
-    podría elevar las temperaturas de tres a diez grados antes del año 2050."
-  fact_2: "Cada galón de gas quemado emite 22 libras de dióxido de carbono
-    a la atmósfera. En un año, cada automóvil emite cinco toneladas de dióxido
-    de carbono en el aire."
-  fact_3: "Los romanos no sólo nos dieron el sistema de drenaje moderno y
-    muchas de nuestras carreteras, también estaban entre los primeros en
-    utilizar la energía geotérmica para calentar las casas."
-  fact_4: "Si se pudiera aprovechar adecuadamente, la suficiente luz del sol
-    que cae sobre la tierra en sólo una hora, podríamos satisfacer la demanda
-    mundial de energía para todo un año!"
-  fact_5: "Selvas tropicales están siendo taladas a un ritmo de 100 hectáreas
-    por minuto."
-  fact_6: "Un tercio del agua utilizada en la mayoría de los hogares es
-    tirada por el inodoro."
-  fact_7: "El reciclaje de una botella de vidrio ahorra suficiente energía
-    para iluminar una bombilla de 100 vatios durante cuatro horas."
-  fact_8: "Una lata de aluminio que se tira seguirá siendo una lata 500
-    años a partir de ahora."
-  fact_9: "Cada tonelada de papel de oficina reciclado ahorra 380 galones
-    de petróleo."
-  fact_10: "Reciclar una lata de aluminio ahorra una cantidad de energía
-    equivalente a la mitad de un tarro de gasolina."
-  fact_11: "El agua es el más utilizado de los recursos de energía
-    renovables, proporcionando la energía suficiente para satisfacer
-    las necesidades de 28,3 millones de personas."
-  fact_12: "La turbina eólica más grande del mundo, ubicado en Hawai,
-    se encuentra a 20 pisos de altura y tiene aspas de la longitud de
-    un campo de fútbol."
-  fact_13: "El uso de tecnologías de energía renovable reduce la contaminación
-    y los gases de efecto invernadero de la quema de combustibles fósiles
-    limitados."
-  fact_14: "Una turbina eólica puede producir suficiente electricidad para
-    abastecer a 300 hogares."
+  # Todo: facts
   
   home_navigation_link: "Inicio"
   solutions_navigation_link: "Soluciones"

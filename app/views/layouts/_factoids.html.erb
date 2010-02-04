@@ -2,10 +2,8 @@
   <table cellspacing="0" cellpadding="0">
     <tr>
       <td class="title"><%= t(:factoid_title) %></td>
-      <td id="factoid" class="text">
-        <NOSCRIPT>
-          <%= random_fact %>
-        </NOSCRIPT>
+      <td class="text">
+        <%= random_fact_html %>
       </td>
     </tr>
   </table>

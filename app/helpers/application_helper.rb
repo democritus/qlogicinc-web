@@ -29,76 +29,57 @@ module ApplicationHelper
   end
   
   def random_quote
-    quotes = [
-      {
-        'text' => t(:quote_1),
-        'author' => t(:quote_1_author)
-      },
-      {
-        'text' => t(:quote_2),
-        'author' => t(:quote_2_author)
-      },
-      {
-        'text' => t(:quote_3),
-        'author' => t(:quote_3_author)
-      },
-      {
-        'text' => t(:quote_4),
-        'author' => t(:quote_4_author)
-      },
-      {
-        'text' => t(:quote_5),
-        'author' => t(:quote_5_author)
-      },
-      {
-        'text' => t(:quote_6),
-        'author' => t(:quote_6_author)
-      },
-      {
-        'text' => t(:quote_7),
-        'author' => t(:quote_7_author)
-      },
-      {
-        'text' => t(:quote_8),
-        'author' => t(:quote_8_author)
+    quotes = []
+    (1..QUOTE_COUNT).each do |i|
+      quotes << {
+        :text => t("quote_#{i}".to_sym),
+        :author => t("quote_#{i}_author".to_sym)
       }
-    ]
-    quote = quotes[rand(quotes.length)]
-    "\"#{quote['text']}\"<div class=\"author\">–#{quote['author']}</div>" 
+    end
+    return quotes[rand(quotes.length)]
   end
-end
-
-def random_fact
-  facts = [
-    t(:fact_1),
-    t(:fact_2),
-    t(:fact_3),
-    t(:fact_4),
-    t(:fact_5),
-    t(:fact_6),
-    t(:fact_7),
-    t(:fact_8),
-    t(:fact_9),
-    t(:fact_10),
-    t(:fact_11),
-    t(:fact_12),
-    t(:fact_13),
-    t(:fact_14)
-  ]
-  return facts[rand(facts.length)]
-end
-
-# Randomly sort facts in javascript array. Allows page caching as client is
-# responsible for dynamically choosing which fact to display
-def random_fact_js
-  js = 'var facts=[' + "\n"
-  (1..14).each do |i|
-    js += ',' + "\n" unless i < 2
-    js += '"' + escape_javascript(t("fact_#{i}".to_sym)) + '"'
+  
+  def random_quote_html
+    open_tag = ''
+    close_tag = ''
+    if @page_caching_active
+      open_tag = '<NOSCRIPT>'
+      close_tag = '</NOSCRIPT>'
+    end
+    quote = random_quote
+    html = ''
+    suffix = prefix = '"'
+    [:text, :author].each do |type|    
+      if type == :author 
+        prefix = '– '
+        suffix = ''
+      end
+      html += "<div id=\"quote_#{type.to_s}\" class=\"#{type.to_s}\">" +
+        open_tag + prefix + quote[type] + suffix + close_tag + '</div>'
+    end
+    return html
   end
-  js += ']' + "\n"
-  js += "facts.sort(function() {return 0.5 - Math.random()})"
-  javascript_tag(js)
+  
+  def random_fact
+    facts = []
+    (1..FACT_COUNT).each do |i|
+      facts << t("fact_#{i}".to_sym)
+    end
+    return facts[rand(facts.length)]
+  end
+  
+  def random_fact_html
+    open_tag = ''
+    close_tag = ''
+    if @page_caching_active
+      open_tag = '<NOSCRIPT>'
+      close_tag = '</NOSCRIPT>'
+    end
+    html = ''
+    html += "<div id=\"factoid_text\">" + open_tag + random_fact +
+      close_tag + '</div>'
+    return html
+  end
 end
 
 # Customize FormBuilder's output

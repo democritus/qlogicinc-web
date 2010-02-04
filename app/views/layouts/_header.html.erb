@@ -1,11 +1,12 @@
 <div id="header" class="clearfix">
   <div id="site_logo">
     <%= link_to image_tag('logo.png', :width => 254, :height => 83,
-      :border => 0, :alt => 'Qlogic, Inc.'), root_path %>
-    <div>Airline/Airport Software Solutions</div>
+      :border => 0, :alt => COMPANY_NAME), root_path %>
+    <div>Airline & Airport Software Solutions</div>
   </div>
   
   <div class="float_right">
+    <!--
     <div id="select_language" onclick="Effect.toggle('language_options',
     'slide', { delay: 0.1, duration: 0.3 });">
       <div class="selector"><%= t(:select_language) %></div>
@@ -32,6 +33,7 @@
         </ul>
       </div>
     </div>
+    -->
 
     <!--
     <div id="site_search">
@@ -41,17 +43,8 @@
     -->
     
     <div id="quote">
-      <NOSCRIPT>
-        <%= random_fact %>
-      </NOSCRIPT>
+      <%= random_quote_html %>
     </div>
-    <%= random_fact_js %>
-    <% javascript_tag do %>
-      document.observe('dom:loaded', function() {
-        $('quote').innerHTML=facts[1]
-        $('factoid').innerHTML=facts[1]
-      });
-    <% end %>
   </div>
 </div>
 

@@ -11,11 +11,11 @@ config.whiny_nils = true
 # Show full error reports and disable caching
 config.action_controller.consider_all_requests_local = true
 config.action_view.debug_rjs                         = true
-#config.action_controller.perform_caching             = false
+config.action_controller.perform_caching             = false
 
 # 2010-01-30 - brian.scott.warren@gmail.com
 # Enable page caching to test domain-specific caching
-config.action_controller.perform_caching             = true
+#config.action_controller.perform_caching             = true
 
 # Mailer settings
 config.action_mailer.raise_delivery_errors = true

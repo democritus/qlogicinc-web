@@ -10,18 +10,19 @@ class InquiriesController < ApplicationController
     @inquiry = Inquiry.find(params[:id])
   end
   
-  def new
-    @inquiry = Inquiry.new
-  end
+  #def new
+  #  @inquiry = Inquiry.new
+  #end
   
   def create
     @inquiry = Inquiry.new(params[:inquiry])
     if @inquiry.save
       flash[:notice] = t(:inquiry_created_confirmation)
-      redirect_to contact_url
     else
-      render :action => 'new'
+      # Save data in session since we're going to redirect
+      session[:inquiry] = @inquiry
     end
+    redirect_to url_for('/contact') # Contact form located on static page
   end
   
   def edit

@@ -67,3 +67,12 @@ SubdomainFu.preferred_mirror = 'en'
 COMPANY_NAME = 'Qlogic, Inc.'
 DOMAIN = 'qlogicinc.com'
 INQUIRY_EMAIL = 'info@' + DOMAIN
+
+ARINC_URL = 'http://www.arinc.com/'
+SITA_URL = 'http://www.sita.aero/'
+RESA_URL = 'http://www.resa.aero/'
+
+# Counts for content items
+# Todo: dynamically figure out how many facts and quotes exist
+FACT_COUNT = 6
+QUOTE_COUNT = 6
