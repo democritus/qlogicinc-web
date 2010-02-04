@@ -1,0 +1,28 @@
+function randomQuote() {
+  var quotes = new Array();
+  <% (1..QUOTE_COUNT).each do |i| %>
+    <% text = escape_javascript('"' + t("quote_#{i}") + '"') %>
+    <% author = escape_javascript('– ' + t("quote_#{i}" + "_author")) %>
+    quotes.push(['<%= text %>','<%= author %>']);
+  <% end %>
+  var random_number=Math.floor(Math.random()*<%= count %>);
+  return quotes[random_number];
+}
+
+function randomFact() {
+  var facts = new Array();
+  <% (1..FACT_COUNT).each do |i| %>
+    <% fact = escape_javascript(t("fact_#{i}")) %>
+    facts.push('<%= fact %>');
+  <% end %>
+  var random_number=Math.floor(Math.random()*<%= count %>);
+  return facts[random_number];
+}
+
+document.observe('dom:loaded', function() {
+  quote = randomQuote();
+  $('quote_text').innerHTML=quote[0];
+  $('quote_author').innerHTML=quote[1];
+  $('factoid_text').innerHTML=randomFact();
+});
+

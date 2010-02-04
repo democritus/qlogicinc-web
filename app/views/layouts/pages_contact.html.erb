@@ -1,0 +1,29 @@
+<%
+#title t(:contact_title)
+%>
+
+<%
+#image_width = '100%'
+image_width = 300
+image_height = 203
+%>
+
+<% content_for :content do %>
+  <div class="columned padded">
+    <div class="outer two_fifths">
+      <div class="inner">
+          <%= yield(:pages_content) or yield  %>
+      </div>
+    </div>
+    <div class="outer three_fifths">
+      <div class="inner">
+        <% unless flash[:notice].blank? %>
+          <p style="color: green"><%= flash[:notice] %></p>
+        <% end %>
+        <%= render :partial => '/inquiries/contact_form' %>
+      </div>
+    </div>
+  </div>
+<% end %>
+<%= render :file => 'layouts/application' %>
+
