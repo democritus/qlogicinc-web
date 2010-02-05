@@ -118,9 +118,9 @@ en:
   factories: "factories"
   
   contact_title: "Contact us"
-  name_label: "Name"
-  email_label: "Email address"
-  phone_label: "Phone number (optional)"
+  name_label: "Your name"
+  email_label: "Your email address"
+  phone_label: "Your phone number (optional)"
   message_label: "Message"
   submit_label: "Submit"
   

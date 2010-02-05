@@ -1,9 +1,9 @@
 /* 
-    Document   : common
+    Document   : application
     Created on : Feb 20, 2009, 10:36:40 AM
     Author     : brian
     Description:
-        Purpose of the stylesheet follows.
+        Application-wide styles
 */
 
 /* TODO: what is this? */
@@ -11,6 +11,62 @@ root {
     display: block;
 }
 
+body {
+  margin: 0;
+  margin-bottom: 25px;
+  padding: 0;
+  background-color: #555253;
+  font-family: "Bitstream Vera Sans", "Verdana", "Arial", "Helvetica";
+  font-size: 14px;
+  color: #444;
+  line-height: 1.4em;
+}
+
+h1 {
+  font-size: 160%;
+  color: #444;
+}
+
+h2 {
+  font-size: 120%;
+  color: #444;
+}
+
+h2.with_subheader {
+  position: relative;
+  margin-bottom: 0px;
+}
+
+h3.subheader {
+  font-size: 90%;
+  font-weight: normal;
+  color: #666;
+  margin-top: -0.2em;
+}
+
+a  {
+  color: #c62;
+  text-decoration: underline;
+}
+
+a:hover {
+  /*background-color: #03c;*/
+  /*color: #999;*/
+  text-decoration: none;
+}
+
+div.anchor {
+  position: relative;
+}
+
+div.anchor a {
+  position: absolute;
+  bottom: 3em;
+}
+
+a img {
+  border: none;
+}
 
 /* Forms */
 form {
@@ -151,6 +207,30 @@ div.right {
   margin: 0px 0px 10px 15px;
 }
 
+div.callout {
+  border-top: 5px solid #c8c8c8;
+  border-right: 5px solid #b4b4b4;
+  border-bottom: 5px solid #b8b8b8;
+  border-left: 5px solid #d0d0d0;
+  background-color: #e0e0e0;
+}
+
+div.callout div {
+  margin: 10px 10px 15px;
+}
+
+div.callout h2 {
+  margin: 0;
+}
+
+div.callout ul {
+  margin: 10px 0px;
+  width: 230px;
+  font-size: 120%;
+  line-height: 120%;
+}
+
+    
 /* Hacks */
 
 /* Fix for clearing elements */
@@ -168,3 +248,59 @@ div.right {
 /* Hides from IE-mac \*/
 * html .clearfix {height: 1%;}
 /* End hide from IE-mac */
+
+
+/* Flash messages */
+#flash_notice, #flash_error {
+  padding: 5px 8px;
+  margin: 10px 0;
+}
+
+#flash_notice {
+  background-color: #CFC;
+  border: solid 1px #6C6;
+}
+
+#flash_error {
+  background-color: #FCC;
+  border: solid 1px #C66;
+}
+
+.fieldWithErrors {
+  display: inline;
+}
+
+#errorExplanation {
+  width: 400px;
+  border: 2px solid #CF0000;
+  padding: 0px;
+  padding-bottom: 12px;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+#errorExplanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 90%;
+  margin: 0;
+  background-color: #c00;
+  color: #fff;
+}
+
+#errorExplanation p {
+  color: #333;
+  margin-bottom: 0;
+  padding: 8px;
+}
+
+#errorExplanation ul {
+  margin: 2px 24px;
+}
+
+#errorExplanation ul li {
+  font-size: 90%;
+  list-style: disc;
+}
+

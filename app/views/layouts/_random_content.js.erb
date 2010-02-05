@@ -5,7 +5,7 @@ function randomQuote() {
     <% author = escape_javascript('– ' + t("quote_#{i}" + "_author")) %>
     quotes.push(['<%= text %>','<%= author %>']);
   <% end %>
-  var random_number=Math.floor(Math.random()*<%= count %>);
+  var random_number=Math.floor(Math.random()*<%= QUOTE_COUNT %>);
   return quotes[random_number];
 }
 
@@ -15,7 +15,7 @@ function randomFact() {
     <% fact = escape_javascript(t("fact_#{i}")) %>
     facts.push('<%= fact %>');
   <% end %>
-  var random_number=Math.floor(Math.random()*<%= count %>);
+  var random_number=Math.floor(Math.random()*<%= FACT_COUNT %>);
   return facts[random_number];
 }
 

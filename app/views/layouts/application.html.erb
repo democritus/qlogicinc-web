@@ -12,11 +12,10 @@ lang="<%= I18n.locale %>">
     <%= alternate_languages_link_tag %>
     <%= stylesheet_link_tag 'common' %>
     <%= stylesheet_link_tag 'application' %>
-    <%= stylesheet_link_tag 'main_layout' %>
     <%= javascript_include_tag :defaults %>
     <% if @page_caching_active %>
       <% javascript_tag do %>
-        <%= render :file => 'layouts/random_content.js' %>
+        <%= render :file => 'layouts/_random_content.js.erb' %>
       <% end %>
     <% end %>
     <%= yield(:head) %>

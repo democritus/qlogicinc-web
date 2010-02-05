@@ -1,33 +1,43 @@
 <div class="uncolumned">
-  <p>Founded in 1992 by John Warren and Phu Tran, <%= COMPANY_NAME %> is a privately held corporation based in Houston, Texas. We specialize in providing custom solutions for shared equipment airports such as <%= arinc_link %>, <%= sita_link %> and <%= resa_link %>. We take pride in delivering innovative, cost-effective solutions tailored to our clients' needs.</p>
+  <p><%= COMPANY_NAME %> is a privately held corporation specializing in custom software solutions for shared equipment airports such as <%= arinc_link %>, <%= sita_link %> and <%= resa_link %>. We take pride in delivering innovative, cost-effective products tailored to our clients' needs.</p>
 </div>
 <div class="columned">  
   <div class="outer one_half">
     <div class="inner">
+      <!--
       <div class="image borderless">
         <% content_tag :div, :class => 'left' do %>
           <%= image_tag 'takeoff.jpg', :width => 200, :height => 150 %>
         <% end %>
       </div>
+      -->
       <div class="text">
         <h2 class="with_subheader">John Warren</h2>
         <h3 class="subheader">Managing director</h3>
         <p>John has been managing the development of air travel communication software for more than 30 years.</p>
+        <p>
+          Send an email to John from our <%= link_to 'web form', '/contact' %>
+        </p>
       </div>
     </div>
   </div>
   
   <div class="outer one_half">
     <div class="inner">
+      <!--
       <div class="image borderless">
         <% content_tag :div, :class => 'left' do %>
           <%= image_tag 'takeoff.jpg', :width => 200, :height => 150 %>
         <% end %>
       </div>
+      -->
       <div class="text">
         <h2 class="with_subheader">Phu Van Tran</h2>
         <h3 class="subheader">Manager of software engineering</h3>
         <p>Phu has more than 30 years of experience developing air travel communication software for use in shared equipment airports.</p>
+        <p>
+          Send an email to Phu from our <%= link_to 'web form', '/contact' %>
+        </p>
       </div>
     </div>
   </div>

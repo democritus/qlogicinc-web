@@ -17,7 +17,7 @@ es:
   
   home_navigation_link: "Inicio"
   solutions_navigation_link: "Soluciones"
-  about_navigation_link: "Acerca de nosotros"
+  about_navigation_link: "Compañía"
   contact_navigation_link: "Contáctenos"
   
   company: "compañía"
@@ -89,9 +89,9 @@ es:
   factories: "fábricas"
   
   contact_title: "Contáctenos"
-  name_label: "Nombre"
-  email_label: "Correo electrónico"
-  phone_label: "Número de teléfono (opcional)"
+  name_label: "Su nombre"
+  email_label: "Su correo electrónico"
+  phone_label: "Su número de teléfono (opcional)"
   message_label: "Mensaje"
   submit_label: "Enviar"
   

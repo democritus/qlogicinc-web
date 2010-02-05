@@ -1,67 +1,418 @@
-a img {
+/* 
+    Document   : application
+    Created on : Feb 20, 2009, 10:36:40 AM
+    Author     : brian
+    Description:
+        Styles for main layout
+*/
+
+#main_canvas {
+  background-color: #fff;
+}
+
+div.glowing_canvas {
+  position: relative;
+  background: url("../images/glowing_borders_transparent.gif") repeat-y;
+  margin: 10px auto;
+  width: 876px;
+  /* Weird, if this border is not present, then the top margin for
+   * div.canvas_innerds doesn't work right (seem to be applied to parent,
+   * div.glowing_canvas */
+  border: 1px solid #555253;
+}
+
+div.glowing_canvas div.canvas_innerds {
+  margin: 36px;
+  /* REMOVED: needed if no border for div.glowing_canvas because without it
+   * the margins don't see to work right
+   * padding-top: 40px;
+   */
+  min-height: 52px;
+}
+
+div.glowing_canvas div.top, div.glowing_canvas div.bottom {
+  position: absolute;
+  left: 0px;
+  height: 14px;
+  background-repeat: repeat-x;
+  width: 876px;
+}
+
+div.glowing_canvas div.top {
+  top: 0px;
+  background-image: url("../images/glowing_top.gif");
+}
+
+div.glowing_canvas div.bottom {
+  bottom: 0px;
+  background-image: url("../images/glowing_bottom.gif");
+}
+
+div.glowing_canvas div.top_left, div.glowing_canvas div.top_right,
+div.glowing_canvas div.bottom_left, div.glowing_canvas div.bottom_right {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+  background-image: url("../images/glowing_corners_white.gif");
+  background-repeat: no-repeat;
+}
+
+div.glowing_canvas div.top_left {
+  top: 0px;
+  left: 0px;
+  background-position: top left;
+}
+
+div.glowing_canvas div.top_right {
+  top: 0px;
+  right: 0px;
+  background-position: top right;
+}
+
+div.glowing_canvas div.bottom_left {
+  bottom: 0px;
+  left: 0px;
+  background-position: bottom left;
+}
+
+div.glowing_canvas div.bottom_right {
+  bottom: 0px;
+  right: 0px;
+  background-position: bottom right;
+}
+
+#header {
+  margin-bottom: 1em;
+}
+
+#site_logo {
+  float: left;
+  clear: left;
+}
+
+#site_logo img {
+}
+
+#site_logo div {
+  font-size: 110%;
+  font-weight: bold;
+  margin: 15px 5px;
+}
+
+#header div.float_right {
+  float: right;
+  clear: right;
+  width: 350px;
+  margin: 0 10px;
+  z-index: 10;
+}
+
+#header div.float_right div {
+  float: right;
+  clear: right;
+}
+
+#select_language {
+  position: relative;
+  background: url("../images/down_arrow.png") no-repeat 100% 0.45em;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  padding-right: 11px;
+  z-index: 20;
+  cursor: pointer;
+}
+
+#select_language div.selector {
+  font-weight: bold;
+}
+
+#select_language div.options {
+  position: absolute;
+  top: 1.4em;
+  right: 0;
+  text-align: right;
+  color: #989898;
+  line-height: 1.4em;
+  width: 100%;
+  cursor: default;
+}
+
+#select_language div.options a {
+  text-decoration: none;
+  color: #f8f8f8;
+}
+
+#select_language div.options a:hover {
+  text-decoration: underline;
+}
+
+#header div.float_right #select_language div.options ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  list-style-position: outside;
+  /*
+  border-top: 3px solid #787878;
+  */
+}
+
+#select_language div.options ul li {
+  background-color: #686868;
+  border-top: none;
+  border-right: 2px solid #707070;
+  border-bottom: 2px solid #707070;
+  border-left: 2px solid #707070;
+  padding: 4px 8px;
+  /*
+  background-color: #686868;
+  border-right: 3px solid #787878;
+  border-bottom: 3px solid #787878;
+  border-left: 3px solid #787878;
+  padding: 4px 8px;
+  */
+  text-align: center;
+}
+
+#quote {
+  margin-top: 5px;
+  font-size: 90%;
+  font-style: italic;
+  line-height: 1.3em;
+  height: 7em;
+  overflow: visible;
+}
+
+#quote div.author {
+  margin: 3px;
+  font-style: normal;
+}
+
+#quote div.text {
+  margin: 0px;
+}
+
+#site_navigation {
+  float: right;
+  clear: right;
+  width: 100%;
+  margin: 0 10px 3em 0;
+}
+
+#site_navigation div {
+  float: right;
+}
+
+#site_navigation div div {
+  float: left;
+  margin-left: 30px;
+  padding: 5px 10px;
+  border-right: 1px solid #e0e0e0;
+}
+
+#site_navigation div div a {
+  color: #666;
+  text-decoration: none;
+}
+
+#site_navigation div div:hover {
+  border-right: 1px solid #a8a8a8;
+}
+
+#site_navigation div div:hover a, #site_navigation div div.active a {
+  color: #222;
+}
+
+#site_navigation div div.active {
+  background-color: #e0e0e0;
+}
+
+
+/* Main page content */
+
+#content {
+  clear: both;
+}
+
+div.uncolumned {
+  margin: 0 10px;
+}
+
+div.columned {
+  margin-bottom: 20px;
+  float: left;
+  clear: left;
+  width: 100%;
+}
+
+div.columned div.outer {
+  float: left;
+}
+
+div.columned div.inner {
+  margin: 0 10px;
+}
+
+div.columned div.image {
+  border: 1px solid #d8d8d8;
+  float: left;
+  clear: left;
+}
+
+div.columned div.borderless {
   border: none;
 }
 
-a {
-  color: #0000FF;
+div.columned div.text {
+  float: left;
+  clear: left;
+  font-size: 100%;
+  line-height: 1.5em;
 }
 
-.clear {
+div.columned div.large_text {
+  font-size: 110%;
+}
+
+div.columned div.text p {
+  margin: 3px;
+  /*text-align: justify;*/
+}
+
+div.columned div.one_third {
+  width: 33%;
+}
+
+div.columned div.two_thirds {
+  width: 66%;
+}
+
+div.columned div.one_fourth {
+  width: 25%;
+}
+
+div.columned div.three_fourths {
+  width: 75%;
+}
+
+div.columned div.two_fifths {
+  width: 40%;
+}
+
+div.columned div.three_fifths {
+  width: 60%;
+}
+
+div.columned div.one_half {
+  width: 50%;
+}
+
+div.columned div.whole {
+  width: 100%;
+}
+
+div.padded div.inner {
+  /*padding: 0 0 0 20px;*/
+}
+
+div.padded div.text p {
+  margin: 7px 3px;
+}
+
+div.page_header_row {
+  float: left;
+  clear: left;
+  margin-bottom: 30px;
+  font-size: 130%;
+  line-height: 1.4em;
+  width: 826px;
+}
+
+div.page_header_row div.inner {
+  float: left;
+  clear: left;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  margin: 0 10px;
+  width: 806px;
+}
+
+div.page_header_row div.image, div.page_header_row div.text {
+  /*float: left;*/
+}
+
+div.page_header_row div.image {
+  border: 1px solid #e8e8e8;
+  float: left;
+  margin: 15px 0;
+}
+
+div.page_header_row div.text {
+  background-color: #f8f8f8;
+  float: left;
+  clear: none;
+  margin: 15px 0 0 10px;
+  width: 480px;
+  padding: 30px;
+  height: 107px;
+}
+
+div.page_header_row div.text p {
+  margin: 3px 10px;
+}
+
+/* Inquiries */
+#contact_form {
+  border-top: 5px solid #c8c8c8;
+  border-right: 5px solid #b4b4b4;
+  border-bottom: 5px solid #b8b8b8;
+  border-left: 5px solid #d0d0d0;
+  background-color: #e0e0e0;
+}
+
+#contact_form h2, #contact_form div {
+  margin: 1em;
+}
+
+#factoids {
   clear: both;
-  height: 0;
-  overflow: hidden;
+  border-top: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+  color: #666;
+  margin-top: 15px;
+  font-size: 90%;
 }
 
-#flash_notice, #flash_error {
-  padding: 5px 8px;
-  margin: 10px 0;
+#factoids table {
 }
 
-#flash_notice {
-  background-color: #CFC;
-  border: solid 1px #6C6;
+#factoids td {
+  border: 0;
+  padding: 4px 12px;
 }
 
-#flash_error {
-  background-color: #FCC;
-  border: solid 1px #C66;
-}
-
-.fieldWithErrors {
-  display: inline;
-}
-
-#errorExplanation {
-  width: 400px;
-  border: 2px solid #CF0000;
-  padding: 0px;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-}
-
-#errorExplanation h2 {
-  text-align: left;
+#factoids td.title {
+  background-color: #e0e0e0;
   font-weight: bold;
-  padding: 5px 5px 5px 15px;
+  white-space: nowrap;
+}
+
+#footer {
+  margin: 0 auto;
+  color: #808080;
+  width: 876px;
   font-size: 90%;
-  margin: 0;
-  background-color: #c00;
-  color: #fff;
 }
 
-#errorExplanation p {
-  color: #333;
-  margin-bottom: 0;
-  padding: 8px;
+#footer div.innerds {
+  margin: 10px 34px;
 }
 
-#errorExplanation ul {
-  margin: 2px 24px;
+#footer div.copyright {
+  float: left;
 }
 
-#errorExplanation ul li {
-  font-size: 90%;
-  list-style: disc;
+#footer div.company_info {
+  float: right;
 }
 
