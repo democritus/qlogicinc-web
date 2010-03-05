@@ -143,5 +143,4 @@ class LabellingFormBuilder < ActionView::Helpers::FormBuilder
     #label_tag(modelname_attributename_tagvalue, tagvalue)
     #classify.constantize
   #end
-    
 end

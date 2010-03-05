@@ -1,7 +1,7 @@
 <div class="uncolumned">
   <div class="clearfix">
-    <% content_tag :div, :class => 'right callout clearfix' do %>
-      <div>
+    <div class="right">
+      <%= rounded_box(%Q{
         <h2>Key benefits:</h2>
         <ul>
           <li>Easy installation</li>
@@ -9,8 +9,8 @@
           <li>Cost-saving automation</li>
           <li>Guranteed certification</li>
         </ul>
-      </div>
-    <% end %>
+      }) %>
+    </div>
     <p>
       Our products meet IATA and AEA standards and are compatible with airline reservation and departure control systems world-wide. <%= COMPANY_NAME %> delivers software that will fully utilize your configuration and peripheral devices. We offer both Windows™ and browser-based applications and can provide a cost-effective migration path from ALC or UTS to IP protocol.
     </p>
@@ -18,7 +18,7 @@
   <div class="anchor"><a name="self_service"></a></div>
   <div class="clearfix">
     <% content_tag :div, :class => 'left' do %>
-      <%= image_tag 'takeoff.jpg', :width => 250, :height => 165 %>
+      <%= image_tag 'self_check_in_kiosk.jpg', :width => 250, :height => 179 %>
     <% end %>
     <h2>Self-service check-in</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
@@ -27,7 +27,7 @@
   <div class="anchor"><a name="gui"></a></div>
   <div class="clearfix">
     <% content_tag :div, :class => 'right' do %>
-      <%= image_tag 'takeoff.jpg', :width => 250, :height => 165 %>
+      <%= image_tag 'agent.jpg', :width => 250, :height => 253 %>
     <% end %>
     <h2>GUI client (Windows™ or web-based)</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
@@ -36,7 +36,7 @@
   <div class="anchor"><a name="boarding"></a></div>
   <div class="clearfix">
     <% content_tag :div, :class => 'left' do %>
-      <%= image_tag 'takeoff.jpg', :width => 250, :height => 165 %>
+      <%= image_tag 'passenger_boarding.jpg', :width => 250, :height => 198 %>
     <% end %>
     <h2>Passenger boarding</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam consequat tincidunt purus ac tincidunt.</p>
@@ -45,7 +45,7 @@
   <div class="anchor"><a name="terminal_emulation"></a></div>
   <div class="clearfix">
     <% content_tag :div, :class => 'right' do %>
-      <%= image_tag 'takeoff.jpg', :width => 250, :height => 165 %>
+      <%= image_tag 'dumb_terminal.jpg', :width => 250, :height => 208 %>
     <% end %>
     <h2>Terminal emulation</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
@@ -54,7 +54,7 @@
   <div class="anchor"><a name="peripherals"></a></div>
   <div class="clearfix">
     <% content_tag :div, :class => 'left' do %>
-      <%= image_tag 'takeoff.jpg', :width => 250, :height => 165 %>
+      <%= image_tag 'barcode_reader.jpg', :width => 250, :height => 205 %>
     <% end %>
     <h2>Peripheral management</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean et est justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>

@@ -1,13 +1,14 @@
+<%
+pages = [
+  {'label' => t(:home_navigation_link), 'permalink' => 'home'},
+  {'label' => t(:solutions_navigation_link), 'permalink' => 'solutions'},
+  {'label' => t(:about_navigation_link), 'permalink' => 'about'},
+  {'label' => t(:contact_navigation_link), 'permalink' => 'contact'}
+]
+%>
+
 <div id="site_navigation" class="clearfix">
   <div>
-    <%
-    pages = [
-      {'label' => t(:home_navigation_link), 'permalink' => 'home'},
-      {'label' => t(:solutions_navigation_link), 'permalink' => 'solutions'},
-      {'label' => t(:about_navigation_link), 'permalink' => 'about'},
-      {'label' => t(:contact_navigation_link), 'permalink' => 'contact'}
-    ]
-    %>
     <% pages.each do |page| %>
       <%
       path = static_path(page['permalink'])

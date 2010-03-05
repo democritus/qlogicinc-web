@@ -34,11 +34,9 @@ config.action_mailer.delivery_method = :smtp
 config.action_mailer.default_charset = "utf-8"
 
 # SMTP settings
-# NOTE: Postfix is configured to relay mail that originates from networks
-# determined by the "mynetworks" parameter in postfix's config file
-# /etc/postfix/main.cf
 config.action_mailer.smtp_settings = {
   :address          => 'localhost',
   :port             => 25,
   :domain           => 'qlogicinc.com'
 }
+

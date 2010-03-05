@@ -44,6 +44,10 @@ h3.subheader {
   margin-top: -0.2em;
 }
 
+ul {
+  margin: 0;
+}
+
 a  {
   color: #c62;
   text-decoration: underline;
@@ -208,7 +212,7 @@ div.right {
 }
 
 div.callout {
-  border-top: 5px solid #c8c8c8;
+  border-top: 5px dotted #c8c8c8;
   border-right: 5px solid #b4b4b4;
   border-bottom: 5px solid #b8b8b8;
   border-left: 5px solid #d0d0d0;

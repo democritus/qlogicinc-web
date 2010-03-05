@@ -2,7 +2,7 @@
 # Likewise, all the methods added will be available for all controllers.
 
 class ApplicationController < ActionController::Base
-  helper :layout # include all helpers, all the time
+  helper :layout, :rounded_box
   protect_from_forgery # See ActionController::RequestForgeryProtection for details
 
   # Scrub sensitive parameters from your log
@@ -33,8 +33,6 @@ class ApplicationController < ActionController::Base
       parsed_locale = request.domain.split('.')[0]
     end
     if parsed_locale
-      # REMOVED: don't like this syntax
-      #(I18n.available_locales.include? parsed_locale.intern) ? parsed_locale.intern : nil
       if I18n.available_locales.include?(parsed_locale.intern)
         parsed_locale.intern
       else
