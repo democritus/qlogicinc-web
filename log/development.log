@@ -8802,3 +8802,2326 @@ Rendered layouts/_site_navigation (3.4ms)
 Rendered layouts/_factoids (5.8ms)
 Rendered layouts/_footer (0.4ms)
 Completed in 199ms (View: 160, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 16:45:02) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.7ms)
+Rendered layouts/_header (8.5ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (2.4ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 60ms (View: 34, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;36;1mSQL (85.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (32.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 20:04:02) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (89.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (44.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.8ms)
+Rendered layouts/_header (12.5ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 474ms (View: 126, DB: 251) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 20:04:04) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.7ms)
+Rendered layouts/_header (7.8ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 53ms (View: 30, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 20:04:05) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.4ms)
+Rendered inquiries/_contact_form (19.0ms)
+Rendered layouts/_header (8.1ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 101ms (View: 74, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 20:04:06) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (4.6ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.6ms)
+Rendered layouts/_header (12.0ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (17.8ms)
+Completed in 184ms (View: 147, DB: 5) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 20:04:08) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (2.5ms)
+Rendered layouts/_header (13.3ms)
+Rendered layouts/_site_navigation (3.4ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 83ms (View: 48, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 20:04:09) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (3.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (6.1ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 66ms (View: 35, DB: 4) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 20:04:10) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.6ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 53ms (View: 30, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 20:04:11) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;35;1mPage Columns (4.8ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;35;1mInquiry Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (2.0ms)
+Rendered inquiries/_contact_form (23.2ms)
+Rendered layouts/_header (13.0ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 115ms (View: 72, DB: 7) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:43) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (2.4ms)
+Rendered layouts/_header (12.7ms)
+Rendered layouts/_site_navigation (3.6ms)
+Rendered layouts/_factoids (2.9ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 81ms (View: 47, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (3.6ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:45) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (7.4ms)
+Rendered layouts/_header (7.9ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 60ms (View: 36, DB: 5) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:47) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.5ms)
+Rendered layouts/_header (12.1ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 79ms (View: 45, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:49) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.9ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 57ms (View: 34, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:52) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (7.8ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 53ms (View: 29, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:54) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.4ms)
+Rendered inquiries/_contact_form (15.0ms)
+Rendered layouts/_header (8.6ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 88ms (View: 46, DB: 5) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:55) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.8ms)
+Rendered layouts/_header (8.1ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 55ms (View: 31, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:56) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.9ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 58ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:57) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.5ms)
+Rendered layouts/_header (12.3ms)
+Rendered layouts/_site_navigation (3.4ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 81ms (View: 46, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-05 21:03:59) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.7ms)
+Rendered layouts/_header (8.5ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 55ms (View: 31, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;35;1mSQL (0.5ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:39:33) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (4.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.8ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.9ms)
+Rendered layouts/_header (12.1ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 293ms (View: 73, DB: 6) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:39:37) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.5ms)
+Rendered layouts/_header (12.2ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (7.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 107ms (View: 55, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (1.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:39:45) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (3.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (2.5ms)
+Rendered layouts/_header (11.8ms)
+Rendered layouts/_site_navigation (6.5ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 96ms (View: 49, DB: 6) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:40:19) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (11.1ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 87ms (View: 37, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:40:22) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (30.2ms)
+Rendered layouts/_header (20.5ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (3.2ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 133ms (View: 96, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:43:00) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.3ms)
+Rendered layouts/_header (11.7ms)
+Rendered layouts/_site_navigation (3.1ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 134ms (View: 73, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:43:25) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (5.0ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 67ms (View: 41, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:10) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.8ms)
+Rendered layouts/_header (8.4ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (10.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 132ms (View: 70, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:14) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (4.8ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (15.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.7ms)
+Rendered layouts/_header (11.8ms)
+Rendered layouts/_site_navigation (3.8ms)
+Rendered layouts/_factoids (2.9ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 106ms (View: 52, DB: 20) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:20) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (6.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (7.8ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.2ms)
+Completed in 83ms (View: 33, DB: 7) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (4.0ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:27) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.6ms)
+Rendered layouts/_header (13.5ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 102ms (View: 65, DB: 6) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:33) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.6ms)
+Rendered layouts/_header (13.0ms)
+Rendered layouts/_site_navigation (4.8ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 90ms (View: 50, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:36) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;35;1mPage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;35;1mInquiry Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (2.0ms)
+Rendered inquiries/_contact_form (33.4ms)
+Rendered layouts/_header (12.0ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 123ms (View: 80, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:38) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.7ms)
+Rendered layouts/_header (12.7ms)
+Rendered layouts/_site_navigation (5.8ms)
+Rendered layouts/_factoids (2.4ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 85ms (View: 53, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:40) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (4.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.8ms)
+Rendered layouts/_header (12.6ms)
+Rendered layouts/_site_navigation (4.5ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 134ms (View: 87, DB: 6) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:41) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (3.2ms)
+Rendered layouts/_header (16.0ms)
+Rendered layouts/_site_navigation (3.6ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 129ms (View: 51, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (14.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (20.9ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-03-06 11:48:49) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (10.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (9.1ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.4ms)
+Rendered inquiries/_contact_form (21.4ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (3.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 185ms (View: 54, DB: 56) | 200 OK [http://en.qlogicinc.com.dev/contact]
+** SubdomainFu: initialized properly
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 17:25:40) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.6ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (45.4ms)
+Rendered layouts/_header (22.7ms)
+Rendered layouts/_site_navigation (19.9ms)
+Rendered layouts/_factoids (18.4ms)
+Rendered layouts/_footer (18.2ms)
+Completed in 366ms (View: 280, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 17:25:45) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (14.3ms)
+Rendered inquiries/_contact_form (45.5ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (2.4ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 179ms (View: 152, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.3ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 17:25:49) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (3.7ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 137ms (View: 111, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 17:26:03) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;35;1mPage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;35;1mInquiry Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.4ms)
+Rendered inquiries/_contact_form (14.6ms)
+Rendered layouts/_header (8.6ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 72ms (View: 45, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:24) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (2.4ms)
+Rendered layouts/_header (11.8ms)
+Rendered layouts/_site_navigation (3.4ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 78ms (View: 45, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:36) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.3ms)
+Rendered inquiries/_contact_form (14.3ms)
+Rendered layouts/_header (8.5ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 72ms (View: 45, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:42) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.4ms)
+Rendered layouts/_header (11.7ms)
+Rendered layouts/_site_navigation (3.6ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 79ms (View: 45, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:43) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (37.6ms)
+Rendered layouts/_header (8.7ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 179ms (View: 77, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:44) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (39.9ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 87ms (View: 62, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:46) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.7ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;35;1mInquiry Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (3.9ms)
+Rendered inquiries/_contact_form (15.0ms)
+Rendered layouts/_header (9.4ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 82ms (View: 52, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:54) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.6ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 53ms (View: 30, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:57) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.5ms)
+Rendered inquiries/_contact_form (14.4ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 75ms (View: 44, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:34:59) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (6.6ms)
+Rendered layouts/_header (8.4ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 60ms (View: 37, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:55:37) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (8.4ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 54ms (View: 32, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:55:38) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.1ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 60ms (View: 36, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:55:40) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 56ms (View: 32, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:55:42) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (2.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.7ms)
+Rendered layouts/_header (12.0ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 91ms (View: 52, DB: 5) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:55:44) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (11.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.7ms)
+Rendered layouts/_header (8.6ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (1.3ms)
+Completed in 134ms (View: 32, DB: 13) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:55:45) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;35;1mInquiry Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.3ms)
+Rendered inquiries/_contact_form (15.9ms)
+Rendered layouts/_header (9.8ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 84ms (View: 57, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:55:46) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (10.2ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (2.2ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 61ms (View: 37, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:55:59) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (14.6ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (5.4ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 63ms (View: 40, DB: 1) | 200 OK [http://es.qlogicinc.com.dev/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:56:03) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (15.1ms)
+Rendered layouts/_site_navigation (4.4ms)
+Rendered layouts/_factoids (5.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 66ms (View: 43, DB: 1) | 200 OK [http://fr.qlogicinc.com.dev/home]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:57:25) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (3.7ms)
+Rendered layouts/_header (8.1ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 65ms (View: 40, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:58:00) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (3.5ms)
+Rendered layouts/_header (7.8ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 60ms (View: 37, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (1.8ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:58:21) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (2.9ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (3.5ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.5ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 63ms (View: 38, DB: 7) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:58:23) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.9ms)
+Rendered layouts/_header (11.7ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 76ms (View: 51, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:58:48) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (11.3ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 141ms (View: 118, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 21:59:47) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (11.2ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 69ms (View: 46, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:00:09) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (16.7ms)
+Rendered layouts/_header (11.8ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 101ms (View: 67, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:01:55) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (11.4ms)
+Rendered layouts/_header (7.9ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 68ms (View: 45, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:02:01) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 58ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:02:20) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.9ms)
+Rendered layouts/_header (7.9ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (2.1ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 58ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:02:32) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.6ms)
+Rendered layouts/_header (11.7ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 86ms (View: 52, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:02:39) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 57ms (View: 34, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:03:54) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.9ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 58ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:03:59) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.4ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 58ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:04:07) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.9ms)
+Rendered layouts/_header (7.9ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 62ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:04:11) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.1ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (2.1ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 59ms (View: 35, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:04:22) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 57ms (View: 34, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:04:23) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.9ms)
+Rendered layouts/_header (11.9ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 61ms (View: 38, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:05:11) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.9ms)
+Rendered layouts/_header (8.1ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (18.5ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 133ms (View: 110, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:05:25) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (6.0ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 58ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:05:29) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.6ms)
+Completed in 58ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:05:49) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (3.4ms)
+Rendered layouts/_header (7.9ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 60ms (View: 38, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:06:51) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (4.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (5.1ms)
+Rendered layouts/_header (11.9ms)
+Rendered layouts/_site_navigation (26.1ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 118ms (View: 80, DB: 5) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:06:57) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (2.8ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (2.1ms)
+Rendered inquiries/_contact_form (23.4ms)
+Rendered layouts/_header (13.2ms)
+Rendered layouts/_site_navigation (3.4ms)
+Rendered layouts/_factoids (2.9ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 210ms (View: 72, DB: 5) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:18) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.6ms)
+Rendered layouts/_header (11.0ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 57ms (View: 32, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:20) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (9.9ms)
+Rendered layouts/_header (12.9ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 93ms (View: 56, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:21) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (8.7ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 55ms (View: 31, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:22) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;35;1mInquiry Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.3ms)
+Rendered inquiries/_contact_form (14.8ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 71ms (View: 45, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:23) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (6.7ms)
+Rendered layouts/_header (8.4ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 131ms (View: 109, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:32) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.6ms)
+Rendered layouts/_header (8.1ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 54ms (View: 31, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:33) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 58ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:35) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 59ms (View: 32, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:36) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.4ms)
+Rendered layouts/_header (12.3ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 80ms (View: 45, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:07:37) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.5ms)
+Rendered layouts/_header (33.0ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 216ms (View: 183, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:08:58) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.6ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 53ms (View: 30, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:08:59) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (2.0ms)
+Rendered inquiries/_contact_form (21.5ms)
+Rendered layouts/_header (11.9ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 109ms (View: 66, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:01) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (7.9ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 57ms (View: 34, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:02) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 55ms (View: 31, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:03) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.7ms)
+Rendered layouts/_header (8.1ms)
+Rendered layouts/_site_navigation (19.8ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 136ms (View: 113, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:05) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.5ms)
+Rendered layouts/_header (11.8ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 79ms (View: 45, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:13) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (7.0ms)
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 64ms (View: 39, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:18) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.4ms)
+Rendered layouts/_header (11.7ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 78ms (View: 44, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (1.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:20) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;35;1mPage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;35;1mInquiry Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.6ms)
+Rendered inquiries/_contact_form (16.3ms)
+Rendered layouts/_header (8.7ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 77ms (View: 48, DB: 4) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:21) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (8.4ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (75.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 131ms (View: 108, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:29) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (3.1ms)
+Rendered layouts/_header (12.6ms)
+Rendered layouts/_site_navigation (4.0ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 84ms (View: 48, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:09:34) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.3ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (9.7ms)
+Rendered layouts/_header (12.3ms)
+Rendered layouts/_site_navigation (3.3ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 96ms (View: 54, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:10:33) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (2.4ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 55ms (View: 31, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:10:35) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (5.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (8.6ms)
+Rendered layouts/_header (11.9ms)
+Rendered layouts/_site_navigation (3.1ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 88ms (View: 50, DB: 5) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:10:43) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.4ms)
+Rendered layouts/_header (11.6ms)
+Rendered layouts/_site_navigation (6.7ms)
+Rendered layouts/_factoids (3.4ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 82ms (View: 48, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:10:45) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (1.4ms)
+Rendered inquiries/_contact_form (15.5ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 78ms (View: 51, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-25 22:10:46) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (5.8ms)
+Rendered layouts/_header (7.9ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 58ms (View: 34, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+** SubdomainFu: initialized properly
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 11:23:49) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;36;1mPage Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (15.9ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (84.1ms)
+Rendered layouts/_header (37.5ms)
+Rendered layouts/_site_navigation (14.8ms)
+Rendered layouts/_factoids (22.3ms)
+Rendered layouts/_footer (8.6ms)
+Completed in 568ms (View: 360, DB: 18) | 200 OK [http://en.qlogicinc.com.dev/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 11:23:53) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (1.2ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.4ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_solutions (12.8ms)
+Rendered layouts/_header (9.4ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 76ms (View: 51, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/solutions]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:10:44) [GET]
+  Parameters: {"permalink"=>"solutions"}
+  [4;36;1mPage Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'solutions') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+
+ActionView::TemplateError (No such file or directory - /home/brian/Sites/qlogicinc.com/app/views/pages/source/_solutions.html.erb) on line #17 of app/views/pages/show.html.erb:
+14:     <%
+15:     filename = RAILS_ROOT + '/app/views/pages/source/_' +
+16:       params[:permalink] + '.html.erb'
+17:     f = File.new(filename)
+18:     if File.exists?(filename)
+19:       %>
+20:       <%= render :partial => '/pages/source/' + params[:permalink] %>
+
+    app/views/pages/show.html.erb:17:in `initialize'
+    app/views/pages/show.html.erb:17:in `new'
+    app/views/pages/show.html.erb:17
+    app/views/pages/show.html.erb:10
+
+Rendered rescues/_trace (139.2ms)
+Rendered rescues/_request_and_response (3.1ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:10:56) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.8ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (16.5ms)
+Rendered layouts/_header (12.2ms)
+Rendered layouts/_site_navigation (5.8ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.7ms)
+Completed in 122ms (View: 84, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:11:14) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.5ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (5.2ms)
+Rendered layouts/_header (14.1ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.8ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 98ms (View: 62, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:11:17) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (0.9ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.8ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.1ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (3.4ms)
+Rendered inquiries/_contact_form (31.2ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 225ms (View: 196, DB: 4) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.9ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:11:31) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (1.1ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (1.8ms)
+Rendered layouts/_header (12.2ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 65ms (View: 40, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:11:32) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.9ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (6.5ms)
+Rendered layouts/_header (9.1ms)
+Rendered layouts/_site_navigation (2.4ms)
+Rendered layouts/_factoids (3.7ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 68ms (View: 42, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:11:33) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (1.6ms)
+Rendered layouts/_header (28.4ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 74ms (View: 52, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:11:43) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (7.8ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (3.9ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 64ms (View: 40, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:22:28) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (12.7ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 71ms (View: 48, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:22:46) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (13.8ms)
+Rendered layouts/_header (8.6ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 73ms (View: 50, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:23:19) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (18.9ms)
+Rendered layouts/_header (11.8ms)
+Rendered layouts/_site_navigation (3.1ms)
+Rendered layouts/_factoids (2.9ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 105ms (View: 73, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:23:29) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (13.0ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 73ms (View: 49, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:24:06) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (14.2ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.7ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 83ms (View: 51, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 12:24:45) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (0.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (2.0ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (12.6ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 77ms (View: 52, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:26:32) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.4ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (15.3ms)
+Rendered layouts/_header (8.3ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 78ms (View: 51, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:27:04) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.2ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (11.5ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (38.0ms)
+Rendered layouts/_header (23.0ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 129ms (View: 91, DB: 13) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (4.4ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:41:52) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (13.7ms)
+Rendered layouts/_header (8.6ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 154ms (View: 53, DB: 6) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:42:10) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.3ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (14.0ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 72ms (View: 50, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:42:54) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (13.9ms)
+Rendered layouts/_header (8.4ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 77ms (View: 52, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:43:09) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (2.9ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (15.7ms)
+Rendered layouts/_header (8.9ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 76ms (View: 52, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:56:40) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (13.8ms)
+Rendered layouts/_header (8.6ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 154ms (View: 60, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:57:06) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (6.8ms)
+Rendered layouts/_header (7.9ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 56ms (View: 35, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:57:09) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (7.1ms)
+Rendered layouts/_header (8.7ms)
+Rendered layouts/_site_navigation (2.1ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 59ms (View: 36, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/products]
+** SubdomainFu: initialized properly
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 13:57:26) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;36;1mPage Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (39.7ms)
+Rendered layouts/_header (11.6ms)
+Rendered layouts/_site_navigation (4.1ms)
+Rendered layouts/_factoids (3.0ms)
+Rendered layouts/_footer (1.4ms)
+Completed in 179ms (View: 144, DB: 3) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 14:10:31) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (18.5ms)
+Rendered layouts/_header (8.0ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.8ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 82ms (View: 56, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 14:12:48) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;36;1mPage Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.2ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (13.9ms)
+Rendered layouts/_header (9.0ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (2.0ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 167ms (View: 137, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 14:12:58) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;36;1mPage Columns (5.6ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (1.0ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (3.7ms)
+Rendered layouts/_header (9.6ms)
+Rendered layouts/_site_navigation (2.3ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 71ms (View: 42, DB: 7) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET NAMES 'utf8'[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 14:13:00) [GET]
+  Parameters: {"permalink"=>"contact"}
+  [4;36;1mPage Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `pages`[0m
+  [4;35;1mPage Load (0.1ms)[0m   [0mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'contact') LIMIT 1[0m
+  [4;36;1mInquiry Columns (1.0ms)[0m   [0;1mSHOW FIELDS FROM `inquiries`[0m
+Rendering template within layouts/pages_contact
+Rendering pages/show
+Rendered pages/source/_contact (3.2ms)
+Rendered inquiries/_contact_form (20.3ms)
+Rendered layouts/_header (8.5ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (2.1ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 102ms (View: 77, DB: 2) | 200 OK [http://en.qlogicinc.com.dev/contact]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 14:13:02) [GET]
+  Parameters: {"permalink"=>"about"}
+  [4;35;1mPage Columns (3.7ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'about') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_about (2.4ms)
+Rendered layouts/_header (15.0ms)
+Rendered layouts/_site_navigation (3.2ms)
+Rendered layouts/_factoids (2.7ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 99ms (View: 63, DB: 4) | 200 OK [http://en.qlogicinc.com.dev/about]
+  [4;35;1mSQL (0.4ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 14:13:03) [GET]
+  Parameters: {"permalink"=>"products"}
+  [4;35;1mPage Columns (69.5ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.2ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'products') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_products (13.1ms)
+Rendered layouts/_header (14.6ms)
+Rendered layouts/_site_navigation (3.4ms)
+Rendered layouts/_factoids (2.9ms)
+Rendered layouts/_footer (0.4ms)
+Completed in 166ms (View: 64, DB: 70) | 200 OK [http://en.qlogicinc.com.dev/products]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET NAMES 'utf8'[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing PagesController#show (for 127.0.0.1 at 2010-05-26 14:13:05) [GET]
+  Parameters: {"permalink"=>"home"}
+  [4;35;1mPage Columns (1.0ms)[0m   [0mSHOW FIELDS FROM `pages`[0m
+  [4;36;1mPage Load (0.1ms)[0m   [0;1mSELECT * FROM `pages` WHERE (`pages`.`permalink` = 'home') LIMIT 1[0m
+Rendering template within layouts/pages
+Rendering pages/show
+Rendered pages/source/_home (3.7ms)
+Rendered layouts/_header (8.2ms)
+Rendered layouts/_site_navigation (2.2ms)
+Rendered layouts/_factoids (1.9ms)
+Rendered layouts/_footer (0.3ms)
+Completed in 61ms (View: 39, DB: 1) | 200 OK [http://en.qlogicinc.com.dev/home]

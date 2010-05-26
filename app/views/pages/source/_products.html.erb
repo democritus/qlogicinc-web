@@ -1,0 +1,62 @@
+<div class="uncolumned">
+  <div class="clearfix">
+    <div class="right">
+      <%= rounded_box(%Q{
+        <h2>Key benefits:</h2>
+        <ul class="compact">
+          <li>Easy installation</li>
+          <li>Straight-forward operation</li>
+          <li>Cost-saving automation</li>
+          <li>Guranteed certification</li>
+        </ul>
+      }) %>
+    </div>
+    <p>Our products meet IATA and AEA standards and are compatible with airline reservation and departure control systems worldwide. <%= COMPANY_NAME %> delivers software that will fully utilize your configuration and peripheral devices. We offer both Windows™ and browser-based applications and can provide a cost-effective migration path from ALC or UTS to IP protocol.</p>
+  </div>
+  <div class="anchor"><a name="self_service"></a></div>
+  <div class="clearfix">
+    <% content_tag :div, :class => 'left' do %>
+      <%= image_tag 'self_check_in_kiosk.jpg', :width => 250, :height => 179 %>
+    <% end %>
+    <h2>Self-service check-in</h2>
+    <p>Allow your passengers to save time and avoid queues by providing kiosks for self-service check-in. We provide customized software that takes into account your particular check-in procedures and security requirements.</p>
+  </div>
+  
+  <div class="anchor"><a name="gui"></a></div>
+  <div class="clearfix">
+    <% content_tag :div, :class => 'right' do %>
+      <%= image_tag 'agent.jpg', :width => 250, :height => 253 %>
+    <% end %>
+    <h2>GUI client (Windows™ or web-based)</h2>
+    <p>Our passenger check-in GUI client extends the functionality of <%= link_to 'terminal emulation', :anchor => 'terminal_emulation' %> and supports the use of all peripheral devices associated with passenger check-in. The Graphical User Interface will reduce user training time as many of your DCS passenger check-in procedures are integrated with easy-to-use graphical forms. This improves passenger processing performance and can also aid in standardizing your check-in process at all airport locations.</p>
+    <p>Our GUI check-in product supports all typical airport peripheral products as are provided by CUTE, MUSE, CREWS or other airport systems using IATA and AEA standards.</p>
+  </div>
+  
+  <div class="anchor"><a name="boarding"></a></div>
+  <div class="clearfix">
+    <% content_tag :div, :class => 'left' do %>
+      <%= image_tag 'passenger_boarding.jpg', :width => 250, :height => 198 %>
+    <% end %>
+    <h2>Passenger boarding</h2>
+    <p>Our GUI automated boarding control application improves boarding efficiency and resolves customer processing situations to prevent duplicate seat assignments and departure delays. It also offers peripheral support for boarding gate readers, bar code readers, and hard copy printers. Other passenger processing issues such as positive passenger identification and security issues may be integrated with the use of biometrics and database access technologies.</p>
+  <p>Due to the nature of Passenger Boarding, many of the DCS transactions and boarding procedures are customized for operation with your specified Departure Control System. <%= COMPANY_NAME %>'s boarding control product does not require host DCS modification.</p>
+  </div>
+  
+  <div class="anchor"><a name="terminal_emulation"></a></div>
+  <div class="clearfix">
+    <% content_tag :div, :class => 'right' do %>
+      <%= image_tag 'terminal_emulator.jpg', :width => 250, :height => 181 %>
+    <% end %>
+    <h2>Terminal emulation</h2>
+    <p><%= COMPANY_NAME %>'s ALC and UTS terminal emulation products feature split-screen windows with many character attributes such as color, blinking, underscore or reverse video. Features such as integrated boarding control, passport processing, specialized menus, user-defined keys, help screens, etc. can be customized according to your particular requirements.</p>
+  </div>
+  
+  <div class="anchor"><a name="peripherals"></a></div>
+  <div class="clearfix">
+    <% content_tag :div, :class => 'left' do %>
+      <%= image_tag 'barcode_reader.jpg', :width => 250, :height => 205 %>
+    <% end %>
+    <h2>Peripheral management</h2>
+    <p>We offer an advanced peripheral management application that is integrated with our other products to provide seamless peripheral control for either the ALC or UTC protocol.</p>
+  </div>
+</div>

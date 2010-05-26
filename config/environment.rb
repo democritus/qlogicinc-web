@@ -65,7 +65,7 @@ SubdomainFu.mirrors = [ 'en', 'es', 'fr' ]
 SubdomainFu.preferred_mirror = 'en'
 
 # Constants
-COMPANY_NAME = 'Qlogic Inc.'
+COMPANY_NAME = 'Qlogic Inc'
 DOMAIN = 'qlogicinc.com'
 INQUIRY_EMAIL = 'info@' + DOMAIN
 

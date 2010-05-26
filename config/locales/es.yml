@@ -1,7 +1,7 @@
 # See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
 
 es:
-  solutions_title: "Soluciones para ahorrar energía"
+  products_title: "Productos para ahorrar energía"
   contact_title: "Contáctenos"
   about_title: "Acerca de nosotros"
   
@@ -16,77 +16,9 @@ es:
   # Todo: facts
   
   home_navigation_link: "Inicio"
-  solutions_navigation_link: "Soluciones"
+  products_navigation_link: "Productos"
   about_navigation_link: "Compañía"
   contact_navigation_link: "Contáctenos"
-  
-  company: "compañía"
-  international: "internacional"
-  team: "equipo"
-      
-  our_mission: "Nuestra misión es utilizar soluciones de energía comprensivas
-    para combatir efectivamente el calentamiento global y ofrecer a nuestros
-    clientes un ahorro de costos."
-  company_overview: "Energía Natural de Centroamérica crea soluciones
-    energéticas que son amigables con el ambiente. Nos centramos en
-    tecnologías que proporcionan un ahorro de costo a nuestros clientes.
-    Através de la consulta, el diseño, y su ejecución, Energía Natural ayuda
-    a las empresas a reducir su consumo total. Con tales soluciones como
-    el calentamiento de agua mediante energía solar y los controles
-    inteligentes para manejar el uso de electricidad en los edificios,
-    podemos ayudarle a realizar sus metas de eficiencia energética. Y esto
-    no solo es bueno para los negocios, sino que también es bueno para la
-    Tierra. {{contact_us}} y le mostraremos cómo comenzar."
-  contact_us_link: "Contáctanos hoy"
-  international_overview: "Estamos orgullosos de ser parte de los esfuerzos
-    ecológicos que se pueden encontrar en Costa Rica. Desde la sede en San
-    José, la capital de Costa Rica, nos acercamos a nuestros vecinos en
-    Centroamérica participando en las muchas iniciativas ecológicas de la
-    región. Actualmente, tenemos proyectos en Guatemala y México, y estamos
-    ampliando las operaciones para aportar soluciones a todos los países de
-    Centroamérica."
-  team_overview:  "Somos un equipo de personas altamente motivadas que se 
-    han unido con la visión de mejorar la forma de aprovechar la energía 
-    que dispone nuestro planeta. Entendemos que se necesitan las personas
-    y las ideas indicadas para crear las mejores soluciones. Por eso, nuestro
-    proceseo incluye el cliente como parte del equipo. Juntos podemos avazar,
-    poniendo en obra soluciones de ahorro para dos propósitos: (1) ayudar
-    en la lucha contra el calentamiento global y otros efectos dañosos del mal
-    uso de los combustibles fósiles, y (2) reducir los costos de energía para
-    el consumidor. ¡{{join_the_team}} y comenzamos hoy!"
-  join_the_team_link: 'Unete al equipo'
-    
-  solar: "solar"
-  wind: "eólica"
-  hydro: "hídrica"
-  refrigeration_and_climatization: "refrigeración y climatización"
-  biogas: "biogas"
-  intelligent_control: "control inteligente"
-
-  solar_solution:  "Mediante el aprovechamiento de la radiación del sol, por
-    medio de paneles solares, se genera energía térmica, amigable con el
-    ambiente y con un retorno de inversión de alrededor dos años."
-  wind_solution:  "Con un eficiente diseño de aeromotores logramos obtener
-    energía eléctrica limpia que no produce emisiones con el simple uso de la
-    energía cinética generada por efecto de las corrientes de aire."
-  hydro_solution:  "Mediante el aprovechamiento del movimiento del agua
-    logramos generar energía eléctrica amigable con el ambiente."
-  refrigeration_solution:  "Diseños y mejoras de sistemas de refrigeración y
-    aire acondicionado con la implementación de refrigerantes eficientes y
-    amigables con el ambiente."
-  biogas_solution:  "Un tipo de energía limpia es generada por la combustión
-    de un gas producido en medios naturales o en dispositivos específicos,
-    por las reacciones de biodegración de la materia orgánica."
-  intelligent_control_solution:  "Ahorro y Monitoreo Energético de sistemas
-    de alto nivel de eficiencia con componentes de punta. Última tecnología en
-    monitoreo (radio frecuencias, WiFi, sistemas de seguridad, entre otros)."
-  
-  hotels: "hoteles"
-  food: "industria alimenticia"
-  construction: "construcción"
-  agriculture: "industria agrícola"
-  water_treatment: "tratamiento de agua"
-  factories: "fábricas"
   
   contact_title: "Contáctenos"
   name_label: "Su nombre"

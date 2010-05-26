@@ -413,3 +413,7 @@ div.page_header_row div.text p {
   float: right;
 }
 
+ul.compact {
+  padding: 0;
+  list-style-position: inside;
+}
