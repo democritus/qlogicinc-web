@@ -10,40 +10,27 @@ en:
   fr: "French"
   select_language: "Select language"
   
-  quote_1: "I don't know what you could say about a day in which you have seen
-    four beautiful sunsets."
+  quote_1: "I don't know what you could say about a day in which you have seen four beautiful sunsets."
   quote_1_author: "John Glenn"
   quote_2: "No flying machine will ever fly from New York to Paris."
   quote_2_author: "Orville Wright"
-  quote_3: "For once you have tasted flight you will walk the earth with your
-    eyes turned skywards, for there you have been and there you will long
-    to return."
+  quote_3: "For once you have tasted flight you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return."
   quote_3_author: "Leonardo da Vinci"
-  quote_4: "We can't solve problems by using the same kind of thinking we used
-    when we created them."
+  quote_4: "We can't solve problems by using the same kind of thinking we used when we created them."
   quote_4_author: "Albert Einstein"
-  quote_5: "The key is not to prioritize what's on your schedule, but to
-    schedule your priorities."
-  quote_5_author: "Stephen R. Covey"
+  quote_5: "O! for a horse with wings!"
+  quote_5_author: "William Shakespeare"
   quote_6: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
   quote_6_author: "Aristotle"
   
   factoid_title: "Fuel for Thought"
-  fact_1: "More than three million people around the world fly on commercial
-    aircraft every day."
-  fact_2: "In the United States, it is 22 times safer to fly on a commercial jet
-    than travel by car"
-  fact_3: "According to the U.S. Congress, air traffic delays cost the
-    American economy more than $40 billion per year."
-  fact_4: "Domestic airlines in the U.S. spend a combined $2 to $5 billion on
-    jet fuel every month."
-  fact_5: "On average there are 61,000 people airborne over the United
-    States at any given hour."
-  fact_6: "The busiest airport in the world is Hartsfield-Jackson International
-    in Atlanta. Just under one million planes take off from this airport per
-    year--that's one departure every 32 seconds."
-  fact_7: "In-flight catering is an $18 billion worldwide industry employing
-    up to 200,000 people."
+  fact_1: "More than three million people around the world fly on commercial aircraft every day."
+  fact_2: "In the United States, it is 22 times safer to fly on a commercial jet than travel by car"
+  fact_3: "According to the U.S. Congress, air traffic delays cost the American economy more than $40 billion per year."
+  fact_4: "Domestic airlines in the U.S. spend a combined $2 to $5 billion on jet fuel every month."
+  fact_5: "On average there are 61,000 people airborne over the United States at any given hour."
+  fact_6: "The busiest airport in the world is Hartsfield-Jackson International in Atlanta. Just under one million planes take off from this airport per year--that's one departure every 32 seconds."
+  fact_7: "In-flight catering is an $18 billion worldwide industry employing up to 200,000 people."
   
   home_navigation_link: "Home"
   products_navigation_link: "Products"
@@ -51,17 +38,56 @@ en:
   contact_navigation_link: "Contact"
    
   contact_title: "Contact us"
-  name_label: "Your name"
-  email_label: "Your email address"
-  phone_label: "Your phone number (optional)"
+  name_label: "Name"
+  email_label: "Email"
+  phone_label: "Phone (optional)"
   message_label: "Message"
   submit_label: "Submit"
   
-  inquiry_created_confirmation: "Thank you! Your inquiry was submitted
-    successfully."
+  inquiry_created_confirmation: "Thank you! Your inquiry was submitted successfully."
   inquiry_updated_confirmation: "Successfully updated inquiry."
   inquiry_destroyed_confirmation: "Successfully destroyed inquiry."
   
   page_created_confirmation: "Successfully created page."
   page_updated_confirmation: "Successfully updated page."
   page_destroyed_confirmation: "Successfully destroyed page."
+  
+  
+  # Global
+  passenger_check_in: 'passenger check-in'
+  boarding_control: 'boarding_control'
+  software_development_kits: 'software development kits'
+  software_solutions: 'software solutions'
+  terminal_emulation: 'terminal emulation'
+  web_form: 'web form'
+  email: 'email'
+  telephone_abbreviation: 'tel.'
+  fax: 'fax'
+  
+  # Pages
+  
+  # Pages::Home
+  home_main_content: "<p>{{company_name}} provides passenger processing software solutions to airlines and airport system companies. We specialize in {{passenger_check_in_link}} , {{boarding_control_link}}, and other related processes for shared equipment airports such as ARINC/MUSE, RESA/CREWS, SITA/CUTE and ULTRA/CUSE systems.</p><p>{{company_name}} provides customized {{terminal_emulation_link}} and {{software_development_kits_link}} for you to run your own/existing Airport application within these shared equipment environments.</p><p>Please contact us via our {{web_form_link}} with specific questions or for detailed information about our products and services.</p>"
+  
+  # Pages::About
+  about_main_content: "<p>Located in suburban Houston, Texas, {{company_name}} helps airlines and airport companies reduce costs by standardizing and simplifying airport operations. We have provided {{software_solutions_link}} and technical support for more than 20 years and have helped our customers operate within domestic and international environments using solutions that meet IATA, AEA and airport requirements. Each solution is certified or compliance tested as required by the airport system site.</p><p>Our services and products are customized to your specific operational needs, permitting you simplify installation, minimize the need for technical support, and maximize operational efficiency. We are operating in hundreds of airport sites worldwide and support large and small airlines as well as airport handling companies.</p><p>Please utilize the {{web_form_link}} to contact us with inquiries about your specific interests.</p>"
+  
+  # Pages::Products
+  benefits_header: 'Key benefits'
+  benefits_easy_installation: 'Easy installation'
+  benefits_straight_forward_operation: 'Straight-forward operation'
+  benefits_cost_saving_automation: 'Cost-saving automation'
+  benefits_guaranteed_certification: 'Guranteed certification'
+  
+  products_introduction: "<p>Our products meet IATA and AEA standards and are compatible with airline reservation and departure control systems worldwide. {{company_name}} delivers software that will fully utilize your configuration and peripheral devices. We offer both Windows™ and browser-based applications and can provide a cost-effective migration path from ALC or UTS to IP protocol.</p>"
+  
+  self_check_in_header: 'Self-service check-in'
+  self_check_in_description: '<p>Allow your passengers to save time and avoid queues by providing kiosks for self-service check-in. We provide customized software that takes into account your particular check-in procedures and security requirements.</p>'
+  passenger_check_in_header: 'GUI client (Windows™ or web-based)'
+  passenger_check_in_description: '<p>Our passenger check-in GUI client extends the functionality of {{terminal_emulation_link}} and supports the use of all peripheral devices associated with passenger check-in. The Graphical User Interface will reduce user training time as many of your DCS passenger check-in procedures are integrated with easy-to-use graphical forms. This improves passenger processing performance and can also aid in standardizing your check-in process at all airport locations.</p><p>Our GUI check-in product supports all typical airport peripheral products as are provided by CUTE, MUSE, CREWS or other airport systems using IATA and AEA standards.</p>'
+  boarding_control_header: 'Boarding control'
+  boarding_control_description: "<p>Our GUI automated boarding control application improves boarding efficiency and resolves customer processing situations to prevent duplicate seat assignments and departure delays. It also offers peripheral support for boarding gate readers, bar code readers, and hard copy printers. Other passenger processing issues such as positive passenger identification and security issues may be integrated with the use of biometrics and database access technologies.</p><p>Due to the nature of Passenger Boarding, many of the DCS transactions and boarding procedures are customized for operation with your specified Departure Control System. {{company_name}}'s boarding control product does not require host DCS modification.</p>"
+  terminal_emulation_header: 'Terminal emulation'
+  terminal_emulation_description: "{{company_name}}'s ALC and UTS terminal emulation products feature split-screen windows with many character attributes such as color, blinking, underscore or reverse video. Features such as integrated boarding control, passport processing, specialized menus, user-defined keys, help screens, etc. can be customized according to your particular requirements."
+  peripheral_management_header: 'Peripheral management'
+  peripheral_management_description: 'We offer an advanced peripheral management application that is integrated with our other products to provide seamless peripheral control for either the ALC or UTC protocol.'

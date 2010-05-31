@@ -1,6 +1,30 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
+  def passenger_check_in_link
+    link_to t(:passenger_check_in), '/products#passenger_check_in'
+  end
+  
+  def boarding_control_link
+    link_to t(:boarding_control), '/products#boarding_control'
+  end
+  
+  def terminal_emulation_link
+    link_to t(:terminal_emulation), '/products#terminal_emulation'
+  end
+  
+  def software_development_kits_link
+    link_to t(:software_development_kits), '/products#software_development_kits'
+  end
+  
+  def software_solutions_link
+    link_to t(:software_solutions), '/products'
+  end
+    
+  def web_form_link
+    link_to t(:web_form), '/contact'
+  end
+  
   def website_author_link_tag(email)
     tag :link, { :href => 'mailto:' + email, :rev => 'made' }
   end

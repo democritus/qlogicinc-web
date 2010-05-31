@@ -2,7 +2,9 @@
   <% content_tag :div, :class => 'left' do %>
     <%= image_tag '747_silhouette.jpg', :width => 300, :height => 188 %>
   <% end %>
-  <p>Headquartered in Houston, TX, <%= COMPANY_NAME %> has been creating software for airlines and airports for <%= (Time.now.year.to_i - 1992).to_s %> years. Our dedicated team will ensure that your requirements are met at every step of development—from design to certification to site installation.</p>
-  <p>Contact us using our <%= link_to 'web form', '/contact' %> to find out what we can do for you.</p>
+  <%= t(:about_main_content,
+    :company_name => COMPANY_NAME,
+    :software_solutions_link => software_solutions_link,
+    :web_form_link => web_form_link
+  ) %>
 </div>
-

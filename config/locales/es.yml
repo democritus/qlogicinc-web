@@ -21,9 +21,9 @@ es:
   contact_navigation_link: "Contáctenos"
   
   contact_title: "Contáctenos"
-  name_label: "Su nombre"
-  email_label: "Su correo electrónico"
-  phone_label: "Su número de teléfono (opcional)"
+  name_label: "Nombre"
+  email_label: "Correo electrónico"
+  phone_label: "Teléfono (opcional)"
   message_label: "Mensaje"
   submit_label: "Enviar"
   

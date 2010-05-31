@@ -1,12 +1,13 @@
 <div class="uncolumned">
-
   <% content_tag :div, :class => 'left' do %>
     <%= image_tag 'takeoff.jpg', :width => 300, :height => 200 %>
   <% end %>
-  
-  <p><%= COMPANY_NAME %> develops customized passenger processing software for airlines and common-use airports all over the world. We specialize in creating products that can be run on any (or all) common-use airport systems.</p>
-  
-  Some of our products include passenger boarding control, GUI client, and self-service check-in. Both Windows™ and browser-based implementations are supported. See our <%= link_to 'solutions page', '/solutions' %> to find out more about these products.</p>
- 
-  <p>Please use our <%= link_to 'contact form', '/contact' %> to request a quote.</p>
+  <%= t(:home_main_content,
+    :company_name => COMPANY_NAME,
+    :passenger_check_in_link => passenger_check_in_link,
+    :boarding_control_link => boarding_control_link,
+    :terminal_emulation_link => terminal_emulation_link,
+    :software_development_kits_link => software_development_kits_link,
+    :web_form_link => web_form_link
+  ) %>
 </div>
