@@ -57,4 +57,15 @@
     <h2><%= t :peripheral_management_header %></h2>
     <%= t :peripheral_management_description, :company_name => COMPANY_NAME %>
   </div>
+  
+  <div class="anchor"><a name="software_development_kits"></a></div>
+  <div class="clearfix">
+    <% content_tag :div, :class => 'right' do %>
+      <%= image_tag 'software_development_kits.jpg',
+        :width => 250, :height => 205 %>
+    <% end %>
+    <h2><%= t :software_development_kits_header %></h2>
+    <%= t :software_development_kits_description,
+      :company_name => COMPANY_NAME %>
+  </div>
 </div>
