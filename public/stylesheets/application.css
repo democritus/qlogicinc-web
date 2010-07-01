@@ -22,7 +22,9 @@ div.glowing_canvas {
 }
 
 div.glowing_canvas div.canvas_innerds {
-  margin: 36px;
+  /*margin: 36px;*/
+  margin: 50px;
+  
   /* REMOVED: needed if no border for div.glowing_canvas because without it
    * the margins don't see to work right
    * padding-top: 40px;
@@ -175,7 +177,8 @@ div.glowing_canvas div.bottom_right {
 }
 
 #quote {
-  margin-top: 5px;
+  margin-top: -7px;
+  margin-right: -15px;
   font-size: 90%;
   font-style: italic;
   line-height: 1.3em;
@@ -242,7 +245,9 @@ div.columned {
   margin-bottom: 20px;
   float: left;
   clear: left;
+  /* REMOVED: is this necessary?
   width: 100%;
+  */
 }
 
 div.columned div.outer {
@@ -279,36 +284,16 @@ div.columned div.text p {
   /*text-align: justify;*/
 }
 
-div.columned div.one_third {
-  width: 33%;
-}
-
-div.columned div.two_thirds {
-  width: 66%;
-}
-
-div.columned div.one_fourth {
-  width: 25%;
-}
-
-div.columned div.three_fourths {
-  width: 75%;
-}
-
 div.columned div.two_fifths {
-  width: 40%;
+  width: 38%;
+}
+
+div.columned div.gutter {
+  width: 4%;
 }
 
 div.columned div.three_fifths {
-  width: 60%;
-}
-
-div.columned div.one_half {
-  width: 50%;
-}
-
-div.columned div.whole {
-  width: 100%;
+  width: 58%;
 }
 
 div.padded div.inner {

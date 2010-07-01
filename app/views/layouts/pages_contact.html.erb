@@ -15,6 +15,11 @@ image_height = 203
           <%= yield(:pages_content) or yield  %>
       </div>
     </div>
+    <div class="outer gutter">
+      <div class="inner">
+        &nbsp;
+      </div>
+    </div>
     <div class="outer three_fifths">
       <div class="inner">
         <% unless flash[:notice].blank? %>

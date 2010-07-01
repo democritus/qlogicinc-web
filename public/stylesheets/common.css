@@ -15,11 +15,12 @@ body {
   margin: 0;
   margin-bottom: 25px;
   padding: 0;
-  background-color: #555253;
   font-family: "Bitstream Vera Sans", "Verdana", "Arial", "Helvetica";
   font-size: 14px;
   color: #444;
   line-height: 1.4em;
+  background-color: #555253;
+  /*background: #555253 url('../images/runway.jpg') no-repeat fixed 50% 0%;*/
 }
 
 h1 {
