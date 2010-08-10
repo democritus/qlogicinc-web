@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   
-  caches_page :show
+  caches_page :show, :if => Proc.new { |c| c.params[:permalink] != 'contact' }
   
   def index
     @pages = Page.all

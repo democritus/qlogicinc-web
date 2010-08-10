@@ -28,4 +28,3 @@ config.action_mailer.smtp_settings = {
   :port             => 25,
   :domain           => 'qlogicinc.com'
 }
-

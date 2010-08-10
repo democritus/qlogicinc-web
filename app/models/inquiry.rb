@@ -6,8 +6,8 @@ class Inquiry < ActiveRecord::Base
   # Pseudo field to hold subject and intended recipient of email since these
   # values are not saved to the database
   attr_accessor :subject
-  attr_accessor :intended_recipient_email
-  attr_accessor :intended_recipient_name
+  attr_accessor :recipient_email
+  attr_accessor :recipient_name
   
   validates_presence_of :message
   validates_presence_of :name
@@ -16,7 +16,7 @@ class Inquiry < ActiveRecord::Base
     :with => /\A([^@\s]+)@((?:[-a-z0-9]+\.)+[a-z]{2,})\Z/i,
     :allow_blank => true
   
-  before_save :set_intended_recipient
+  before_save :set_recipient
   
   
   private
@@ -24,8 +24,8 @@ class Inquiry < ActiveRecord::Base
   # Don't save email recipient since email hasn't been sent yet, but remember
   # the intended recipient so that it can be saved later upon succesful
   # delivery
-  def set_intended_recipient
-    write_attribute(:intended_recipient_name, COMPANY_NAME)
-    write_attribute(:intended_recipient_email, INQUIRY_EMAIL)
+  def set_recipient
+    write_attribute(:recipient_name, COMPANY_NAME)
+    write_attribute(:recipient_email, INQUIRY_EMAIL)
   end
 end

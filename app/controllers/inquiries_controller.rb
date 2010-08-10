@@ -1,6 +1,4 @@
 class InquiriesController < ApplicationController
-
-  caches_page :new
   
   def index
     @inquiries = Inquiry.all

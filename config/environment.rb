@@ -67,7 +67,11 @@ SubdomainFu.preferred_mirror = 'en'
 # Constants
 COMPANY_NAME = 'Qlogic Inc.'
 DOMAIN = 'qlogicinc.com'
-INQUIRY_EMAIL = 'info@' + DOMAIN
+if RAILS_ENV == 'production'
+  INQUIRY_EMAIL = 'info@' + DOMAIN
+else
+  INQUIRY_EMAIL = 'bwarren@' + DOMAIN
+end
 
 ARINC_URL = 'http://www.arinc.com/'
 SITA_URL = 'http://www.sita.aero/'

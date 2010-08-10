@@ -32,11 +32,6 @@ lang="<%= I18n.locale %>">
       <div class="canvas_innerds">
         <%= render :partial => 'layouts/header' %>
         <%= render :partial => 'layouts/site_navigation' %>
-      
-        <%- flash.each do |name, msg| -%>
-          <%= content_tag :div, msg, :id => "flash_#{name}" %>
-        <%- end -%>
-      
         <%= content_tag :h1, yield(:title), {
           :style => "display: #{show_title? ? 'block' : 'none'}" } %>
         

@@ -17,7 +17,6 @@ class Mailer < ActionMailer::Base
         header += inquiry[:name] + ' '
       end
       header += '<' + inquiry[:email] + '>'
-      header += inquiry[:email]
     else
       header = nil
     end
@@ -25,24 +24,22 @@ class Mailer < ActionMailer::Base
   
   def recipient_header(inquiry)
     header = ''
-    unless inquiry[:intended_recipient_email].blank?
-      if inquiry[:intended_recipient_name]
-        header += inquiry[:intended_recipient_name] + ' '
+    unless inquiry[:recipient_email].blank?
+      if inquiry[:recipient_name]
+        header += inquiry[:recipient_name] + ' '
       end
-      header += '<' + inquiry[:intended_recipient_email] + '>'
-      header += inquiry[:intended_recipient_email]
+      header += '<' + inquiry[:recipient_email] + '>'
     else
       header = nil
     end
   end
   
   def bcc_header
-    # BCC same address as FROM to archive record of sent emails
-    from_header
+    nil
   end
   
   def from_header
-    "User Services <noreply@" + DOMAIN + '>'
+    'User Services <noreply@' + DOMAIN + '>'
   end
   
   def web_form_inquiry(inquiry)

@@ -1,10 +1,6 @@
 Hello <%= @inquiry['recipient_name'] %>, you have received a general inquiry
 from <%= from_name %>.
 
-Recipient:
-Recipient name: <%= @inquiry.recipient_name %>
-Recipient email: <%= @inquiry.recipient_email %>
-
 Sender:
 Sender name: <%= @inquiry.name %>
 Sender email: <%= @inquiry.email %>
@@ -12,6 +8,3 @@ Sender phone: <%= @inquiry.phone %>
 
 Message
 <%= @inquiry.message %>
-
-
-
