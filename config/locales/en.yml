@@ -10,28 +10,6 @@ en:
   fr: "French"
   select_language: "Select language"
   
-  quote_1: "I don't know what you could say about a day in which you have seen four beautiful sunsets."
-  quote_1_author: "John Glenn"
-  quote_2: "No flying machine will ever fly from New York to Paris."
-  quote_2_author: "Orville Wright"
-  quote_3: "For once you have tasted flight you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return."
-  quote_3_author: "Leonardo da Vinci"
-  quote_4: "We can't solve problems by using the same kind of thinking we used when we created them."
-  quote_4_author: "Albert Einstein"
-  quote_5: "O! for a horse with wings!"
-  quote_5_author: "William Shakespeare"
-  quote_6: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
-  quote_6_author: "Aristotle"
-  
-  factoid_title: "Fuel for Thought"
-  fact_1: "More than three million people around the world fly on commercial aircraft every day."
-  fact_2: "In the United States, it is 22 times safer to fly on a commercial jet than travel by car"
-  fact_3: "According to the U.S. Congress, air traffic delays cost the American economy more than $40 billion per year."
-  fact_4: "Domestic airlines in the U.S. spend a combined $2 to $5 billion on jet fuel every month."
-  fact_5: "On average there are 61,000 people airborne over the United States at any given hour."
-  fact_6: "The busiest airport in the world is Hartsfield-Jackson International in Atlanta. Just under one million planes take off from this airport per year--that's one departure every 32 seconds."
-  fact_7: "In-flight catering is an $18 billion worldwide industry employing up to 200,000 people."
-  
   home_navigation_link: "Home"
   products_navigation_link: "Products"
   about_navigation_link: "About"
@@ -54,43 +32,62 @@ en:
   
   
   # Global
-  passenger_check_in: 'passenger check-in'
-  boarding_control: 'boarding_control'
-  software_development_kits: 'software development kits'
-  software_solutions: 'software solutions'
-  terminal_emulation: 'terminal emulation'
-  web_form: 'web form'
+  check_in: 'Check-In'
+  board_control: 'Board Control'
+  sdk_software: 'SDK software'
+  software_development_kit: 'software development kit'
+  terminal_emulation: 'Terminal Emulation'
+  web_form: 'contact form'
   email: 'email'
   telephone_abbreviation: 'tel.'
   fax: 'fax'
   
+  
   # Pages
+  #######
   
   # Pages::Home
-  related_products_label: "related products"
-  home_main_content: "<p>{{company_name}} provides passenger processing software solutions to airlines and airport system companies.</p><p>We specialize in {{passenger_check_in_link}} , {{boarding_control_link}}, and {{related_products_link}} for shared equipment airports such as ARINC/MUSE, RESA/CREWS, SITA/CUTE and ULTRA/CUSE systems.</p><p>{{company_name}} provides customized {{terminal_emulation_link}} and {{software_development_kits_link}} for you to run a new or existing airport application within these shared equipment environments.</p><p>Please contact us via our {{web_form_link}} with specific questions or for detailed information about our products and services.</p>"
+  home_main_content: "<p>{{company_name}} provides technical support and software solutions to airlines and airport companies.</p><p>We specialize in common-use airport systems such as SITA/CUTE, ARINC/MUSE, RESA/CREWS, ULTRA/CUSE and AIR-IT/EASE.</p><p>{{company_name}} provides customized {{terminal_emulation_link}}, {{check_in_link}}, {{board_control_link}}, and {{sdk_software_link}} to optimize passenger processing efficiency.</p><p>Please use our {{web_form_link}} to contact us about our products and services.</p>"
   
   # Pages::About
-  about_main_content: "<p>Located in suburban Houston, Texas, {{company_name}} helps airlines and airport companies reduce costs by standardizing and simplifying airport operations. We have provided {{software_solutions_link}} and technical support for more than 20 years and have helped our customers operate within domestic and international environments using solutions that meet IATA, AEA and airport requirements. Each solution is certified or compliance tested as required by the airport system site.</p><p>Our services and products are customized to your specific operational needs, permitting you simplify installation, minimize the need for technical support, and maximize operational efficiency. We are operating in hundreds of airport sites worldwide and support large and small airlines as well as airport handling companies.</p><p>Please utilize the {{web_form_link}} to contact us with inquiries about your specific interests.</p>"
+  about_main_content: "<p>Located in suburban Houston, Texas USA, {{company_name}} helps airlines and airport companies reduce operational costs by standardizing and simplifying airport operations. We have provided software solutions and technical support for more than 20 years and have helped our customers operate more efficiently within domestic and international airport environments.</p><p>Our service and products are customized to simplify site installation, minimize technical support and maximize operational efficiency. Before implementation, each product is certified and compliance-tested to meet airport system standards and conform to IATA and AEA practices.</p><p>{{company_name}} customers operate at hundreds of airports worldwide and include both large and small airlines as well as airline handling companies.
+For additional information about specific requirements please use our {{web_form_link}}.</p>"
   
   # Pages::Products
   benefits_header: 'Key benefits'
-  benefits_easy_installation: 'Easy installation'
-  benefits_straight_forward_operation: 'Straight-forward operation'
-  benefits_cost_saving_automation: 'Cost-saving automation'
-  benefits_guaranteed_certification: 'Guranteed certification'
+  benefits_quick_implementation: 'Quick implementation'
+  benefits_customized_features: 'Customized features'
+  benefits_proven_reliability_and_performance: 'Proven reliability and performance'
   
   products_introduction: "<p>Our products meet IATA and AEA standards and are compatible with airline reservation and departure control systems worldwide. {{company_name}} delivers software that will fully utilize your configuration and peripheral devices. We offer both Windows™ and browser-based applications and can provide a cost-effective migration path from ALC or UTS to IP protocol.</p>"
   
-  self_check_in_header: 'Self-service check-in'
-  self_check_in_description: '<p>Allow your passengers to save time and avoid queues by providing kiosks for self-service check-in. We provide customized software that takes into account your particular check-in procedures and security requirements.</p>'
-  passenger_check_in_header: 'GUI client (Windows™ or web-based)'
-  passenger_check_in_description: '<p>Our passenger check-in GUI client extends the functionality of {{terminal_emulation_link}} and supports the use of all peripheral devices associated with passenger check-in. The Graphical User Interface will reduce user training time as many of your DCS passenger check-in procedures are integrated with easy-to-use graphical forms. This improves passenger processing performance and can also aid in standardizing your check-in process at all airport locations.</p><p>Our GUI check-in product supports all typical airport peripheral products as are provided by CUTE, MUSE, CREWS or other airport systems using IATA and AEA standards.</p>'
-  boarding_control_header: 'Boarding control'
-  boarding_control_description: "<p>Our GUI automated boarding control application improves boarding efficiency and resolves customer processing situations to prevent duplicate seat assignments and departure delays. It also offers peripheral support for boarding gate readers, bar code readers, and hard copy printers. Other passenger processing issues such as positive passenger identification and security issues may be integrated with the use of biometrics and database access technologies.</p><p>Due to the nature of Passenger Boarding, many of the DCS transactions and boarding procedures are customized for operation with your specified Departure Control System. {{company_name}}'s boarding control product does not require host DCS modification.</p>"
-  terminal_emulation_header: 'Terminal emulation'
-  terminal_emulation_description: "{{company_name}}'s ALC and UTS terminal emulation products feature split-screen windows with many character attributes such as color, blinking, underscore or reverse video. Features such as integrated boarding control, passport processing, specialized menus, user-defined keys, help screens, etc. can be customized according to your particular requirements."
-  peripheral_management_header: 'Peripheral management'
-  peripheral_management_description: 'We offer an advanced peripheral management application that is integrated with our other products to provide seamless peripheral control for either the ALC or UTC protocol.'
-  software_development_kits_header: 'Software Development Kits'
-  software_development_kits_description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sem augue, vestibulum ornare pellentesque ut, adipiscing vel risus. Curabitur venenatis, mauris a lacinia tincidunt, mi magna ultricies est, nec lobortis dui nisl id nisl.'
+  check_in_header: 'Check-In'
+  check_in_description: '{{company_name}} provides a Device Application integrated with the TE or other user interface to support typical airport peripheral devices required for passenger check-in operations. This includes ATB (boarding pass and ticket printers), BTP (Interline baggage tag printers), DCP (hard-copy printers), OCR (passport readers), MSR (magnetic card readers) and BCR (bar-code readers).'
+  board_control_header: "Board Control"
+  board_control_description: "We provide a customized boarding control application to optimize passenger boarding efficiency and improve passenger convenience. The Board Control application uses a GUI screen presentation and sophisticated processing to ensure passenger reconciliation, validate seating and flight information and check passenger security. The Board Control application uses one or more BGR (boarding gate reader) peripherals and an optional DCP (hard-copy printer). Our BC applications are designed to be compatible with the existing host DCS functions, requiring no host or network modifications."
+  terminal_emulation_header: "Terminal Emulation"
+  terminal_emulation_description: "<p>Our basic TE supports user interface for ALC, UTS and 3270 screen presentation.  TE host communication is supported for ALC, UTS and TN3270 protocols with easy migration to MATIP, TCP/IP and Browser/Internet environments.</p><p>Customized TE features can be added to support GUI screen presentation for Check-In, Board Control, Bag Drop, Kiosk use, VIP Lounge operations and other specialized requirements.</p>"
+  sdk_header: "SDK (software development kit)"
+  sdk_description: "For customers who have developed their own passenger processing applications, {{company_name}} provides an SDK to interface your set of applications for use at any or all of the common-use airports and to enable access to all of the peripheral devices associated with check-in and board control operations. Our SDK can support Java-based, browser-based or Windows applications and is a quick and efficient way to standardize your applications for use at all airport locations."
+  
+  quote_1: "I don't know what you could say about a day in which you have seen four beautiful sunsets."
+  quote_1_author: "John Glenn"
+  quote_2: "No flying machine will ever fly from New York to Paris."
+  quote_2_author: "Orville Wright"
+  quote_3: "For once you have tasted flight you will walk the earth with your eyes turned skywards, for there you have been and there you will long to return."
+  quote_3_author: "Leonardo da Vinci"
+  quote_4: "We can't solve problems by using the same kind of thinking we used when we created them."
+  quote_4_author: "Albert Einstein"
+  quote_5: "O! for a horse with wings!"
+  quote_5_author: "William Shakespeare"
+  quote_6: "We are what we repeatedly do. Excellence, then, is not an act, but a habit."
+  quote_6_author: "Aristotle"
+  
+  factoid_title: "Fuel for Thought"
+  fact_1: "More than three million people around the world fly on commercial aircraft every day."
+  fact_2: "In the United States, it is 22 times safer to fly on a commercial jet than travel by car"
+  fact_3: "According to the U.S. Congress, air traffic delays cost the American economy more than $40 billion per year."
+  fact_4: "Domestic airlines in the U.S. spend a combined $2 to $5 billion on jet fuel every month."
+  fact_5: "On average there are 61,000 people airborne over the United States at any given hour."
+  fact_6: "The busiest airport in the world is Hartsfield-Jackson International in Atlanta. Just under one million planes take off from this airport per year--that's one departure every 32 seconds."
+  fact_7: "In-flight catering is an $18 billion worldwide industry employing up to 200,000 people."

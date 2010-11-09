@@ -22,6 +22,13 @@ Rails::Initializer.run do |config|
   
   # 2010-01-27 - Brian Warren - subdomain support. Subdomain indicates language
   # i.e. en.qlogicinc.com = English, es.qlogicinc.com
+  
+  config.gem 'mongrel'
+  
+  config.gem 'mysql'
+  
+  config.gem 'ruby-debug'
+  
   config.gem 'subdomain-fu',
     :lib     => 'subdomain-fu',
     :source  => 'http://gems.github.com',

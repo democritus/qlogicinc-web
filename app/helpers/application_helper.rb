@@ -1,24 +1,20 @@
 # Methods added to this helper will be available to all templates in the application.
 module ApplicationHelper
 
-  def passenger_check_in_link
-    link_to t(:passenger_check_in), '/products#passenger_check_in'
+  def check_in_link
+    link_to t(:check_in), '/products#check_in'
   end
   
-  def boarding_control_link
-    link_to t(:boarding_control), '/products#boarding_control'
+  def board_control_link
+    link_to t(:board_control), '/products#board_control'
   end
   
   def terminal_emulation_link
     link_to t(:terminal_emulation), '/products#terminal_emulation'
   end
   
-  def software_development_kits_link
-    link_to t(:software_development_kits), '/products#software_development_kits'
-  end
-  
-  def software_solutions_link
-    link_to t(:software_solutions), '/products'
+  def sdk_software_link
+    link_to t(:sdk_software), '/products#sdk'
   end
     
   def web_form_link
