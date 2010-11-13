@@ -346,6 +346,12 @@ div.page_header_row div.text p {
   margin: 3px 10px;
 }
 
+/* Products */
+div.rounded_box {
+  font-size: 115%;
+  line-height: 1.4em;
+}
+
 /* Inquiries */
 #contact_form {
   border: 2px solid #c8c8c8;
