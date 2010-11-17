@@ -15,8 +15,12 @@
   <div class="anchor"><a name="terminal_emulation"></a></div>
   <div class="clearfix">
     <% content_tag :div, :class => 'left' do %>
-      <%= image_tag 'terminal_emulator_screen.jpg', :width => 250,
-        :height => 181 %>
+      <%= link_to(
+        image_tag( 'terminal_emulator_screen.jpg', :width => 250,
+          :height => 181 ),
+        'images/terminal_emulator_screen_large.jpg',
+        :target => '_blank'
+      ) %>
     <% end %>
     <h2><%= t :terminal_emulation_header %></h2>
     <%= t :terminal_emulation_description, :company_name => COMPANY_NAME %>
@@ -42,8 +46,12 @@
   <div class="anchor"><a name="sdk"></a></div>
   <div class="clearfix">
     <% content_tag :div, :class => 'right' do %>
-      <%= image_tag 'sdk.jpg',
-        :width => 250, :height => 205 %>
+      <%= link_to(
+        image_tag( 'sdk_screen.jpg', :width => 250,
+          :height => 188 ),
+        'images/sdk_screen_large.jpg',
+        :target => '_blank'
+      ) %>
     <% end %>
     <h2><%= t :sdk_header %></h2>
     <%= t :sdk_description,
