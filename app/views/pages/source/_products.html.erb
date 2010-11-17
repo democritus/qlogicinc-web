@@ -11,17 +11,19 @@
       }) %>
     </div>
     <%= t :products_introduction, :company_name => COMPANY_NAME %>
-  
+  </div>
+    
   <div class="anchor"><a name="terminal_emulation"></a></div>
   <div class="clearfix">
-    <% content_tag :div, :class => 'left' do %>
+    <div class="left">
       <%= link_to(
-        image_tag( 'terminal_emulator_screen.jpg', :width => 250,
-          :height => 181 ),
-        'images/terminal_emulator_screen_large.jpg',
-        :target => '_blank'
+        image_tag( 'te_screen_thumb.jpg', :width => 250, :height => 181 ) +
+          '<div class="overlay"></div>',
+        'images/te_screen.jpg',
+        :target => '_blank',
+        :class => 'enlargeable'
       ) %>
-    <% end %>
+    </div>
     <h2><%= t :terminal_emulation_header %></h2>
     <%= t :terminal_emulation_description, :company_name => COMPANY_NAME %>
   </div>
@@ -44,15 +46,16 @@
   </div>
   
   <div class="anchor"><a name="sdk"></a></div>
-  <div class="clearfix">
-    <% content_tag :div, :class => 'right' do %>
+  <div class="enlargeable clearfix">
+    <div class="right">
       <%= link_to(
-        image_tag( 'sdk_screen.jpg', :width => 250,
-          :height => 188 ),
-        'images/sdk_screen_large.jpg',
-        :target => '_blank'
+        image_tag( 'sdk_screen_thumb.jpg', :width => 250, :height => 188 ) +
+          '<div class="overlay"></div>',
+        'images/sdk_screen.jpg',
+        :target => '_blank',
+        :class => 'enlargeable'
       ) %>
-    <% end %>
+    </div>
     <h2><%= t :sdk_header %></h2>
     <%= t :sdk_description,
       :company_name => COMPANY_NAME %>
